@@ -1,0 +1,25 @@
+name: Briefing expéditions K+N
+on:
+  schedule:
+    - cron: "0 5 * * 1-5"   # 05h00 UTC = 07h00 Paris, lun-ven
+  workflow_dispatch:          # permet aussi de le déclencher manuellement
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python scripts/fetch_shipments.py
+        env:
+          KN_CLIENT_ID: ${{ secrets.KN_CLIENT_ID }}
+          KN_CLIENT_SECRET: ${{ secrets.KN_CLIENT_SECRET }}
+      - name: Commit du rapport
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add reports/ || true
+          git commit -m "Briefing du $(date +%F)" || exit 0
+          git push
