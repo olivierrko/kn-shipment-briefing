@@ -3,11 +3,15 @@ on:
   schedule:
     - cron: "0 5 * * 1-5"   # 05h00 UTC = 07h00 Paris, lun-ven
   workflow_dispatch:          # permet aussi de le déclencher manuellement
+permissions:
+  contents: write              # autorise le commit du rapport
 jobs:
   briefing:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
