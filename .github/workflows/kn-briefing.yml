@@ -3,6 +3,8 @@ on:
   schedule:
     - cron: "0 5 * * 1-5"   # 05h00 UTC = 07h00 Paris, lun-ven
   workflow_dispatch:          # permet aussi de le déclencher manuellement
+  push:
+    branches: [main]           # permet à l'agent Vibe de relancer un run à la demande
 permissions:
   contents: write              # autorise le commit du rapport
 jobs:
