@@ -1,0 +1,58 @@
+import os, json
+from datetime import datetime, timezone
+import requests
+
+BASE_URL = "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2"
+
+def get_token():
+    resp = requests.post(
+        BASE_URL + "/oauth/token",
+        auth=(os.environ["KN_CLIENT_ID"], os.environ["KN_CLIENT_SECRET"]),
+        data={"grant_type": "client_credentials"},
+        timeout=30,
+    )
+    resp.raise_for_status()
+    return resp.json()["access_token"]
+
+def main():
+    token = get_token()
+    headers = {"Authorization": f"Bearer {token}"}
+
+    # Expéditions actives
+    body = {
+        "pagination": {"page": 0, "size": 500},
+        "filters": {"stages": ["BOOKED", "IN_TRANSIT"]},
+    }
+    search = requests.post(
+        f"{BASE_URL}/shipments-search",
+        headers={**headers, "Content-Type": "application/json"},
+        json=body, timeout=60,
+    )
+    search.raise_for_status()
+    data = search.json()
+    abstracts = data if isinstance(data, list) else (
+        data.get("shipments") or data.get("content") or []
+    )
+
+    # Détails de chaque expédition
+    details = []
+    for a in abstracts:
+        tn = a.get("trackingNumber")
+        if not tn:
+            continue
+        r = requests.get(f"{BASE_URL}/shipments/{tn}", headers=headers, timeout=60)
+        if r.ok:
+            details.append(r.json())
+
+    os.makedirs("reports", exist_ok=True)
+    report = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "total_active": len(abstracts),
+        "shipments": details,
+        "raw_search": abstracts,
+    }
+    with open(f"reports/briefing-{datetime.now(timezone.utc):%Y-%m-%d}.json", "w") as f:
+        json.dump(report, f, indent=2, ensure_ascii=False)
+
+if __name__ == "__main__":
+    main()
