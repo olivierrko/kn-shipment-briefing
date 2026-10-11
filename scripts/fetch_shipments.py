@@ -133,7 +133,7 @@ def main():
     body_delivered = {
         "pagination": {"page": 0, "size": 500},
         "filters": {
-            "stages": ["DELIVERED"],
+            "stages": ["ARRIVED"],
         },
     }
     delivered_search = requests.post(
