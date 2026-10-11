@@ -3,10 +3,11 @@ from datetime import datetime, timezone
 import requests
 
 BASE_URL = "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2"
+TOKEN_URL = "https://portal.api.kuehne-nagel.com/oauth2/token"
 
 def get_token():
     resp = requests.post(
-        BASE_URL + "/oauth/token",
+        TOKEN_URL,
         auth=(os.environ["KN_CLIENT_ID"], os.environ["KN_CLIENT_SECRET"]),
         data={"grant_type": "client_credentials"},
         timeout=30,
