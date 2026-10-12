@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T16:45:56.042227+00:00",
+  "generated_at": "2026-10-12T16:47:57.949782+00:00",
   "active": {
     "total_active": 25,
     "ignored_anomalies": [],
@@ -8251,6 +8251,19 @@
                 "statusCode": "1300"
               }
             },
+            "arrivalDate": {
+              "flexDateTime": {
+                "date": "2026-10-12",
+                "time": "16:19",
+                "offset": "+02:00"
+              },
+              "dateTime": "2026-10-12T16:19+02:00",
+              "condition": "ACTUAL",
+              "explanation": {
+                "source": "STATUS",
+                "statusCode": "1410"
+              }
+            },
             "routeLocations": [
               {
                 "reached": true,
@@ -8341,7 +8354,7 @@
                 "outgoingVehicle": {}
               },
               {
-                "reached": false,
+                "reached": true,
                 "completed": false,
                 "type": "ARRIVAL",
                 "location": {
@@ -8354,8 +8367,21 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-12",
+                        "time": "16:19",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-12T16:19+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1410"
+                      }
+                    }
                   },
                   {
                     "reached": false,
@@ -8412,22 +8438,22 @@
               "type": "ROUTE_LOCATION_MILESTONE",
               "actualAchievementDateTime": {
                 "flexDateTime": {
-                  "date": "2026-10-09",
-                  "time": "20:07",
+                  "date": "2026-10-12",
+                  "time": "16:19",
                   "offset": "+02:00"
                 },
-                "dateTime": "2026-10-09T20:07+02:00",
+                "dateTime": "2026-10-12T16:19+02:00",
                 "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "1300"
+                  "statusCode": "1410"
                 }
               },
-              "city": "Gallargues-Le-Montueux",
+              "city": "Tours",
               "countryCode": "FR",
               "key": {
-                "routeLocationType": "DEPARTURE",
-                "locationMilestoneType": "VEHICLE_DEPARTED"
+                "routeLocationType": "ARRIVAL",
+                "locationMilestoneType": "VEHICLE_ARRIVED"
               }
             },
             "milestoneDates": [
@@ -8512,6 +8538,28 @@
                 "key": {
                   "routeLocationType": "DEPARTURE",
                   "locationMilestoneType": "VEHICLE_DEPARTED"
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-12",
+                    "time": "16:19",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-12T16:19+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1410"
+                  }
+                },
+                "city": "Tours",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "ARRIVAL",
+                  "locationMilestoneType": "VEHICLE_ARRIVED"
                 }
               }
             ]
