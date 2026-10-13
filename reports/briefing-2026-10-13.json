@@ -1,9 +1,1895 @@
 {
-  "generated_at": "2026-10-13T06:59:13.490867+00:00",
+  "generated_at": "2026-10-13T17:56:02.364099+00:00",
   "active": {
     "total_active": 25,
     "ignored_anomalies": [],
     "shipments": [
+      {
+        "shipmentId": 530258152,
+        "trackingNumber": "RWM009252524",
+        "shipmentCreationDateTime": {
+          "date": "2026-10-13",
+          "time": "12:51:57"
+        },
+        "shipmentCreationIsoDateTime": "2026-10-13T12:51:57",
+        "modeOfTransport": "ROAD",
+        "serviceType": "groupage",
+        "shipmentReferences": {
+          "packageNumbers": [
+            "00840700557000101459"
+          ],
+          "partyReferences": [
+            {
+              "references": [
+                {
+                  "partyType": "CN",
+                  "referenceType": "AAO",
+                  "referenceName": "Consignee's shipment reference no.",
+                  "referenceValues": [
+                    "RWM009252524"
+                  ]
+                },
+                {
+                  "partyType": "PU",
+                  "referenceType": "ABO",
+                  "referenceName": "Originator's Reference Number",
+                  "referenceValues": [
+                    "221964"
+                  ]
+                },
+                {
+                  "partyType": "SH",
+                  "referenceType": "ABO",
+                  "referenceName": "Originator's Reference Number",
+                  "referenceValues": [
+                    "221964"
+                  ]
+                },
+                {
+                  "partyType": "SH",
+                  "referenceType": "BRN",
+                  "referenceName": "Branch",
+                  "referenceValues": [
+                    "14"
+                  ]
+                },
+                {
+                  "partyType": "NI",
+                  "referenceType": "SL",
+                  "referenceName": "SERVICE LEVEL",
+                  "referenceValues": [
+                    "STANDARD"
+                  ]
+                },
+                {
+                  "partyType": "SH",
+                  "referenceType": "SRN",
+                  "referenceName": "Shipment reference number",
+                  "referenceValues": [
+                    "26-10-0394650"
+                  ]
+                },
+                {
+                  "partyType": "SH",
+                  "referenceType": "TRN",
+                  "referenceName": "Road Tracking Number",
+                  "referenceValues": [
+                    "RWM009252524"
+                  ]
+                },
+                {
+                  "partyType": "PF",
+                  "referenceType": "ZZZ",
+                  "referenceName": "Mutually defined reference number",
+                  "referenceValues": [
+                    "221964"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "shippingInfo": {
+          "incoterm": {
+            "code": "DAP"
+          }
+        },
+        "parties": {
+          "shipper": {
+            "partyType": "SH",
+            "address": {
+              "name": [
+                "MEMPHIS PRODUCTION"
+              ],
+              "street": [
+                "2750 ROUTE MONTPELLIER (DE)"
+              ],
+              "city": [
+                "NIMES"
+              ],
+              "zipCode": "30000",
+              "countryCode": "FR",
+              "countryName": "FRANCE"
+            }
+          },
+          "consignee": {
+            "partyType": "CN",
+            "address": {
+              "name": [
+                "MEMPHIS RESTAURANT CAEN MONDEVILLE"
+              ],
+              "street": [
+                "2 PARVIS MONDEVILLAGE"
+              ],
+              "city": [
+                "MONDEVILLE"
+              ],
+              "zipCode": "14120",
+              "countryCode": "FR",
+              "countryName": "FRANCE"
+            }
+          },
+          "mainParties": [
+            {
+              "partyType": "CU",
+              "address": {
+                "name": [
+                  "FRFNI42"
+                ]
+              }
+            }
+          ],
+          "internalParties": [
+            {
+              "partyType": "FF",
+              "address": {
+                "name": [
+                  "KUEHNE+NAGEL 34-MONTPELLIER"
+                ],
+                "street": [
+                  "5 ALLEE DU PIOT"
+                ],
+                "city": [
+                  "GALLARGUES LE MONTUEUX"
+                ],
+                "zipCode": "30660",
+                "countryCode": "FR",
+                "countryName": "FRANCE",
+                "printAddress": [
+                  "ZAC POLE ACTIF"
+                ]
+              }
+            },
+            {
+              "partyType": "FW",
+              "address": {
+                "name": [
+                  "KUEHNE+NAGEL 14-CAEN"
+                ],
+                "street": [
+                  "18 RUE DENIS PAPIN"
+                ],
+                "city": [
+                  "DEMOUVILLE"
+                ],
+                "zipCode": "14840",
+                "countryCode": "FR",
+                "countryName": "FRANCE",
+                "printAddress": [
+                  "ZAC DU CLOS NEUF"
+                ]
+              }
+            }
+          ]
+        },
+        "freightInfo": {
+          "cargoInfo": {
+            "numberOfPackages": 1,
+            "marksAndNumbers": [
+              "HANDLING UNIT"
+            ],
+            "cargoItems": [
+              {
+                "quantity": {
+                  "value": 1,
+                  "unit": "CLL"
+                },
+                "weight": {
+                  "value": 230,
+                  "unit": "KG"
+                },
+                "descriptionOfGoods": [
+                  "0"
+                ],
+                "marksAndNumbers": [
+                  "HANDLING UNIT"
+                ]
+              }
+            ]
+          },
+          "weight": {
+            "value": 230,
+            "unit": "KG"
+          },
+          "hasDangerousGoods": false
+        },
+        "routing": {
+          "core": {
+            "routeLocations": [
+              {
+                "reached": true,
+                "completed": true,
+                "type": "ORIGIN",
+                "location": {
+                  "locationCode": "FRFNI",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "NIMES",
+                  "zipCode": "30000"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": true,
+                    "locationMilestoneType": "READY_FOR_PICKUP",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-13"
+                      },
+                      "dateTime": "2026-10-13T00:00Z",
+                      "condition": "PLANNED",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "0300"
+                      }
+                    }
+                  },
+                  {
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                  },
+                  {
+                    "reached": true,
+                    "locationMilestoneType": "CARGO_PICKED_UP"
+                  }
+                ],
+                "outgoingVehicle": {}
+              },
+              {
+                "reached": true,
+                "completed": false,
+                "type": "DEPARTURE",
+                "location": {
+                  "locationCode": "FRGLX",
+                  "unLocationCode": "FRGLX",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "Gallargues-Le-Montueux",
+                  "freeTextLocation": "Gallargues-Le-Montueux"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-13",
+                        "time": "16:10",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-13T16:10+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1000"
+                      }
+                    }
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_DEPARTED"
+                  }
+                ],
+                "outgoingVehicle": {}
+              },
+              {
+                "reached": false,
+                "completed": false,
+                "type": "TRANSIT",
+                "location": {
+                  "locationCode": "FRTUF",
+                  "unLocationCode": "FRTUF",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "Tours",
+                  "freeTextLocation": "Tours"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_DEPARTED"
+                  }
+                ],
+                "outgoingVehicle": {}
+              },
+              {
+                "reached": false,
+                "completed": false,
+                "type": "ARRIVAL",
+                "location": {
+                  "locationCode": "FRCFR",
+                  "unLocationCode": "FRCFR",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "Caen",
+                  "freeTextLocation": "Caen"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "IN_DELIVERY"
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "FREIGHT_COLLECTION"
+                  }
+                ],
+                "outgoingVehicle": {}
+              },
+              {
+                "reached": false,
+                "completed": false,
+                "type": "DESTINATION",
+                "location": {
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "freeTextLocation": "MONDEVILLE",
+                  "zipCode": "14120"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "CARGO_DELIVERED"
+                  }
+                ]
+              }
+            ],
+            "fromLocation": {
+              "locationCode": "FRFNI",
+              "countryCode": "FR",
+              "countryName": "FRANCE",
+              "internationalName": "NIMES",
+              "zipCode": "30000"
+            },
+            "toLocation": {
+              "countryCode": "FR",
+              "countryName": "FRANCE",
+              "freeTextLocation": "MONDEVILLE",
+              "zipCode": "14120"
+            }
+          },
+          "milestoneInfo": {
+            "currentStage": "IN_TRANSIT",
+            "currentMilestone": {
+              "type": "ROUTE_LOCATION_MILESTONE",
+              "actualAchievementDateTime": {
+                "flexDateTime": {
+                  "date": "2026-10-13",
+                  "time": "16:10",
+                  "offset": "+02:00"
+                },
+                "dateTime": "2026-10-13T16:10+02:00",
+                "condition": "ACTUAL",
+                "explanation": {
+                  "source": "STATUS",
+                  "statusCode": "1000"
+                }
+              },
+              "city": "Gallargues-Le-Montueux",
+              "countryCode": "FR",
+              "key": {
+                "routeLocationType": "DEPARTURE",
+                "locationMilestoneType": "VEHICLE_ARRIVED"
+              }
+            },
+            "milestoneDates": [
+              {
+                "type": "TRANSPORT_INFORMATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13",
+                    "time": "12:51:57",
+                    "offset": "Z"
+                  },
+                  "dateTime": "2026-10-13T12:51:57Z",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "0141"
+                  }
+                },
+                "key": {
+                  "transportInformationMilestoneType": "BOOKING_SUBMISSION"
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "city": "NIMES",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "ORIGIN",
+                  "locationMilestoneType": "READY_FOR_PICKUP"
+                },
+                "plannedAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13"
+                  },
+                  "dateTime": "2026-10-13T00:00Z",
+                  "condition": "PLANNED",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "0300"
+                  }
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13",
+                    "time": "16:10",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-13T16:10+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1000"
+                  }
+                },
+                "city": "Gallargues-Le-Montueux",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "DEPARTURE",
+                  "locationMilestoneType": "VEHICLE_ARRIVED"
+                }
+              }
+            ]
+          }
+        },
+        "emissionInfo": {
+          "co2e": {}
+        },
+        "links": {
+          "documents": "https://gateway.api.kuehne-nagel.com/transport/execution/documentation/shipment/v3/shipments/shipment-id%3A530258152/documents"
+        }
+      },
+      {
+        "shipmentId": 530258519,
+        "trackingNumber": "RWM009246740",
+        "shipmentCreationDateTime": {
+          "date": "2026-10-13",
+          "time": "12:51:56"
+        },
+        "shipmentCreationIsoDateTime": "2026-10-13T12:51:56",
+        "modeOfTransport": "ROAD",
+        "serviceType": "groupage",
+        "shipmentReferences": {
+          "packageNumbers": [
+            "00840700557000100797",
+            "00840700557000100803"
+          ],
+          "partyReferences": [
+            {
+              "references": [
+                {
+                  "partyType": "CN",
+                  "referenceType": "AAO",
+                  "referenceName": "Consignee's shipment reference no.",
+                  "referenceValues": [
+                    "RWM009246740"
+                  ]
+                },
+                {
+                  "partyType": "PU",
+                  "referenceType": "ABO",
+                  "referenceName": "Originator's Reference Number",
+                  "referenceValues": [
+                    "221944"
+                  ]
+                },
+                {
+                  "partyType": "SH",
+                  "referenceType": "ABO",
+                  "referenceName": "Originator's Reference Number",
+                  "referenceValues": [
+                    "221944"
+                  ]
+                },
+                {
+                  "partyType": "SH",
+                  "referenceType": "BRN",
+                  "referenceName": "Branch",
+                  "referenceValues": [
+                    "44"
+                  ]
+                },
+                {
+                  "partyType": "NI",
+                  "referenceType": "SL",
+                  "referenceName": "SERVICE LEVEL",
+                  "referenceValues": [
+                    "STANDARD"
+                  ]
+                },
+                {
+                  "partyType": "SH",
+                  "referenceType": "SRN",
+                  "referenceName": "Shipment reference number",
+                  "referenceValues": [
+                    "26-10-0394654"
+                  ]
+                },
+                {
+                  "partyType": "SH",
+                  "referenceType": "TRN",
+                  "referenceName": "Road Tracking Number",
+                  "referenceValues": [
+                    "RWM009246740"
+                  ]
+                },
+                {
+                  "partyType": "PF",
+                  "referenceType": "ZZZ",
+                  "referenceName": "Mutually defined reference number",
+                  "referenceValues": [
+                    "221944"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "shippingInfo": {
+          "incoterm": {
+            "code": "DAP"
+          }
+        },
+        "parties": {
+          "shipper": {
+            "partyType": "SH",
+            "address": {
+              "name": [
+                "MEMPHIS PRODUCTION"
+              ],
+              "street": [
+                "2750 ROUTE MONTPELLIER (DE)"
+              ],
+              "city": [
+                "NIMES"
+              ],
+              "zipCode": "30000",
+              "countryCode": "FR",
+              "countryName": "FRANCE"
+            }
+          },
+          "consignee": {
+            "partyType": "CN",
+            "address": {
+              "name": [
+                "MEMPHIS RESTAURANT NANTES NANTES"
+              ],
+              "street": [
+                "14 RUE MARIE CURIE"
+              ],
+              "city": [
+                "ST SEBASTIEN SUR LOIRE"
+              ],
+              "zipCode": "44230",
+              "countryCode": "FR",
+              "countryName": "FRANCE"
+            }
+          },
+          "mainParties": [
+            {
+              "partyType": "CU",
+              "address": {
+                "name": [
+                  "FRFNI42"
+                ]
+              }
+            }
+          ],
+          "internalParties": [
+            {
+              "partyType": "FF",
+              "address": {
+                "name": [
+                  "KUEHNE+NAGEL 34-MONTPELLIER"
+                ],
+                "street": [
+                  "5 ALLEE DU PIOT"
+                ],
+                "city": [
+                  "GALLARGUES LE MONTUEUX"
+                ],
+                "zipCode": "30660",
+                "countryCode": "FR",
+                "countryName": "FRANCE",
+                "printAddress": [
+                  "ZAC POLE ACTIF"
+                ]
+              }
+            },
+            {
+              "partyType": "FW",
+              "address": {
+                "name": [
+                  "KUEHNE+NAGEL 44-NANTES"
+                ],
+                "street": [
+                  "AVENUE ANTOINE DE ST EXUPERY"
+                ],
+                "city": [
+                  "ST AIGNAN GRANDLIEU"
+                ],
+                "zipCode": "44860",
+                "countryCode": "FR",
+                "countryName": "FRANCE",
+                "printAddress": [
+                  "ZI AEROPORTUAIRE NANTES ATLANTIQUE"
+                ]
+              }
+            }
+          ]
+        },
+        "freightInfo": {
+          "cargoInfo": {
+            "numberOfPackages": 2,
+            "marksAndNumbers": [
+              "HANDLING UNIT"
+            ],
+            "cargoItems": [
+              {
+                "quantity": {
+                  "value": 2,
+                  "unit": "CLL"
+                },
+                "weight": {
+                  "value": 412,
+                  "unit": "KG"
+                },
+                "descriptionOfGoods": [
+                  "0"
+                ],
+                "marksAndNumbers": [
+                  "HANDLING UNIT"
+                ]
+              }
+            ]
+          },
+          "weight": {
+            "value": 412,
+            "unit": "KG"
+          },
+          "hasDangerousGoods": false
+        },
+        "routing": {
+          "core": {
+            "routeLocations": [
+              {
+                "reached": true,
+                "completed": true,
+                "type": "ORIGIN",
+                "location": {
+                  "locationCode": "FRFNI",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "NIMES",
+                  "zipCode": "30000"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": true,
+                    "locationMilestoneType": "READY_FOR_PICKUP",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-13"
+                      },
+                      "dateTime": "2026-10-13T00:00Z",
+                      "condition": "PLANNED",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "0300"
+                      }
+                    }
+                  },
+                  {
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                  },
+                  {
+                    "reached": true,
+                    "locationMilestoneType": "CARGO_PICKED_UP"
+                  }
+                ],
+                "outgoingVehicle": {}
+              },
+              {
+                "reached": true,
+                "completed": false,
+                "type": "DEPARTURE",
+                "location": {
+                  "locationCode": "FRGLX",
+                  "unLocationCode": "FRGLX",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "Gallargues-Le-Montueux",
+                  "freeTextLocation": "Gallargues-Le-Montueux"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-13",
+                        "time": "16:10",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-13T16:10+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1000"
+                      }
+                    }
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_DEPARTED"
+                  }
+                ],
+                "outgoingVehicle": {}
+              },
+              {
+                "reached": false,
+                "completed": false,
+                "type": "TRANSIT",
+                "location": {
+                  "locationCode": "FRTUF",
+                  "unLocationCode": "FRTUF",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "Tours",
+                  "freeTextLocation": "Tours"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_DEPARTED"
+                  }
+                ],
+                "outgoingVehicle": {}
+              },
+              {
+                "reached": false,
+                "completed": false,
+                "type": "ARRIVAL",
+                "location": {
+                  "locationCode": "FRNTE",
+                  "unLocationCode": "FRNTE",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "Nantes",
+                  "freeTextLocation": "Nantes"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "IN_DELIVERY"
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "FREIGHT_COLLECTION"
+                  }
+                ],
+                "outgoingVehicle": {}
+              },
+              {
+                "reached": false,
+                "completed": false,
+                "type": "DESTINATION",
+                "location": {
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "freeTextLocation": "ST SEBASTIEN SUR LOIRE",
+                  "zipCode": "44230"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "CARGO_DELIVERED"
+                  }
+                ]
+              }
+            ],
+            "fromLocation": {
+              "locationCode": "FRFNI",
+              "countryCode": "FR",
+              "countryName": "FRANCE",
+              "internationalName": "NIMES",
+              "zipCode": "30000"
+            },
+            "toLocation": {
+              "countryCode": "FR",
+              "countryName": "FRANCE",
+              "freeTextLocation": "ST SEBASTIEN SUR LOIRE",
+              "zipCode": "44230"
+            }
+          },
+          "milestoneInfo": {
+            "currentStage": "IN_TRANSIT",
+            "currentMilestone": {
+              "type": "ROUTE_LOCATION_MILESTONE",
+              "actualAchievementDateTime": {
+                "flexDateTime": {
+                  "date": "2026-10-13",
+                  "time": "16:10",
+                  "offset": "+02:00"
+                },
+                "dateTime": "2026-10-13T16:10+02:00",
+                "condition": "ACTUAL",
+                "explanation": {
+                  "source": "STATUS",
+                  "statusCode": "1000"
+                }
+              },
+              "city": "Gallargues-Le-Montueux",
+              "countryCode": "FR",
+              "key": {
+                "routeLocationType": "DEPARTURE",
+                "locationMilestoneType": "VEHICLE_ARRIVED"
+              }
+            },
+            "milestoneDates": [
+              {
+                "type": "TRANSPORT_INFORMATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13",
+                    "time": "12:51:56",
+                    "offset": "Z"
+                  },
+                  "dateTime": "2026-10-13T12:51:56Z",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "0141"
+                  }
+                },
+                "key": {
+                  "transportInformationMilestoneType": "BOOKING_SUBMISSION"
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "city": "NIMES",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "ORIGIN",
+                  "locationMilestoneType": "READY_FOR_PICKUP"
+                },
+                "plannedAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13"
+                  },
+                  "dateTime": "2026-10-13T00:00Z",
+                  "condition": "PLANNED",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "0300"
+                  }
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13",
+                    "time": "16:10",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-13T16:10+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1000"
+                  }
+                },
+                "city": "Gallargues-Le-Montueux",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "DEPARTURE",
+                  "locationMilestoneType": "VEHICLE_ARRIVED"
+                }
+              }
+            ]
+          }
+        },
+        "emissionInfo": {
+          "co2e": {}
+        },
+        "links": {
+          "documents": "https://gateway.api.kuehne-nagel.com/transport/execution/documentation/shipment/v3/shipments/shipment-id%3A530258519/documents"
+        }
+      },
+      {
+        "shipmentId": 530258222,
+        "trackingNumber": "RWM009246464",
+        "shipmentCreationDateTime": {
+          "date": "2026-10-13",
+          "time": "12:51:56"
+        },
+        "shipmentCreationIsoDateTime": "2026-10-13T12:51:56",
+        "modeOfTransport": "ROAD",
+        "serviceType": "groupage",
+        "shipmentReferences": {
+          "packageNumbers": [
+            "00840700557000100780"
+          ],
+          "partyReferences": [
+            {
+              "references": [
+                {
+                  "partyType": "CN",
+                  "referenceType": "AAO",
+                  "referenceName": "Consignee's shipment reference no.",
+                  "referenceValues": [
+                    "RWM009246464"
+                  ]
+                },
+                {
+                  "partyType": "SH",
+                  "referenceType": "ABO",
+                  "referenceName": "Originator's Reference Number",
+                  "referenceValues": [
+                    "221962"
+                  ]
+                },
+                {
+                  "partyType": "PU",
+                  "referenceType": "ABO",
+                  "referenceName": "Originator's Reference Number",
+                  "referenceValues": [
+                    "221962"
+                  ]
+                },
+                {
+                  "partyType": "SH",
+                  "referenceType": "BRN",
+                  "referenceName": "Branch",
+                  "referenceValues": [
+                    "59"
+                  ]
+                },
+                {
+                  "partyType": "NI",
+                  "referenceType": "SL",
+                  "referenceName": "SERVICE LEVEL",
+                  "referenceValues": [
+                    "STANDARD"
+                  ]
+                },
+                {
+                  "partyType": "SH",
+                  "referenceType": "SRN",
+                  "referenceName": "Shipment reference number",
+                  "referenceValues": [
+                    "26-10-0394652"
+                  ]
+                },
+                {
+                  "partyType": "SH",
+                  "referenceType": "TRN",
+                  "referenceName": "Road Tracking Number",
+                  "referenceValues": [
+                    "RWM009246464"
+                  ]
+                },
+                {
+                  "partyType": "PF",
+                  "referenceType": "ZZZ",
+                  "referenceName": "Mutually defined reference number",
+                  "referenceValues": [
+                    "221962"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "shippingInfo": {
+          "incoterm": {
+            "code": "DAP"
+          }
+        },
+        "parties": {
+          "shipper": {
+            "partyType": "SH",
+            "address": {
+              "name": [
+                "MEMPHIS PRODUCTION"
+              ],
+              "street": [
+                "2750 ROUTE MONTPELLIER (DE)"
+              ],
+              "city": [
+                "NIMES"
+              ],
+              "zipCode": "30000",
+              "countryCode": "FR",
+              "countryName": "FRANCE"
+            }
+          },
+          "consignee": {
+            "partyType": "CN",
+            "address": {
+              "name": [
+                "MEMPHIS RESTAURANT SAINT OMER"
+              ],
+              "street": [
+                "10 ROUTE DES BRUYERES"
+              ],
+              "city": [
+                "LONGUENESSE"
+              ],
+              "zipCode": "62219",
+              "countryCode": "FR",
+              "countryName": "FRANCE"
+            }
+          },
+          "mainParties": [
+            {
+              "partyType": "CU",
+              "address": {
+                "name": [
+                  "FRFNI42"
+                ]
+              }
+            }
+          ],
+          "internalParties": [
+            {
+              "partyType": "FF",
+              "address": {
+                "name": [
+                  "KUEHNE+NAGEL 34-MONTPELLIER"
+                ],
+                "street": [
+                  "5 ALLEE DU PIOT"
+                ],
+                "city": [
+                  "GALLARGUES LE MONTUEUX"
+                ],
+                "zipCode": "30660",
+                "countryCode": "FR",
+                "countryName": "FRANCE",
+                "printAddress": [
+                  "ZAC POLE ACTIF"
+                ]
+              }
+            },
+            {
+              "partyType": "FW",
+              "address": {
+                "name": [
+                  "KUEHNE+NAGEL 59-ST OMER"
+                ],
+                "street": [
+                  "PARC D ACTIVITES DES ESCARDALLES"
+                ],
+                "city": [
+                  "ST AUGUSTIN"
+                ],
+                "zipCode": "62129",
+                "countryCode": "FR",
+                "countryName": "FRANCE",
+                "printAddress": [
+                  "486 VOIE PAUL HOCHART"
+                ]
+              }
+            }
+          ]
+        },
+        "freightInfo": {
+          "cargoInfo": {
+            "numberOfPackages": 1,
+            "marksAndNumbers": [
+              "HANDLING UNIT"
+            ],
+            "cargoItems": [
+              {
+                "quantity": {
+                  "value": 1,
+                  "unit": "CLL"
+                },
+                "weight": {
+                  "value": 250,
+                  "unit": "KG"
+                },
+                "descriptionOfGoods": [
+                  "0"
+                ],
+                "marksAndNumbers": [
+                  "HANDLING UNIT"
+                ]
+              }
+            ]
+          },
+          "weight": {
+            "value": 250,
+            "unit": "KG"
+          },
+          "hasDangerousGoods": false
+        },
+        "routing": {
+          "core": {
+            "routeLocations": [
+              {
+                "reached": true,
+                "completed": true,
+                "type": "ORIGIN",
+                "location": {
+                  "locationCode": "FRFNI",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "NIMES",
+                  "zipCode": "30000"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": true,
+                    "locationMilestoneType": "READY_FOR_PICKUP",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-13"
+                      },
+                      "dateTime": "2026-10-13T00:00Z",
+                      "condition": "PLANNED",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "0300"
+                      }
+                    }
+                  },
+                  {
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                  },
+                  {
+                    "reached": true,
+                    "locationMilestoneType": "CARGO_PICKED_UP"
+                  }
+                ],
+                "outgoingVehicle": {}
+              },
+              {
+                "reached": true,
+                "completed": false,
+                "type": "DEPARTURE",
+                "location": {
+                  "locationCode": "FRGLX",
+                  "unLocationCode": "FRGLX",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "Gallargues-Le-Montueux",
+                  "freeTextLocation": "Gallargues-Le-Montueux"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-13",
+                        "time": "16:10",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-13T16:10+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1000"
+                      }
+                    }
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_DEPARTED"
+                  }
+                ],
+                "outgoingVehicle": {}
+              },
+              {
+                "reached": false,
+                "completed": false,
+                "type": "TRANSIT",
+                "location": {
+                  "locationCode": "FRBEA",
+                  "unLocationCode": "FRBEA",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "Beaune",
+                  "freeTextLocation": "Beaune"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_DEPARTED"
+                  }
+                ],
+                "outgoingVehicle": {}
+              },
+              {
+                "reached": false,
+                "completed": false,
+                "type": "ARRIVAL",
+                "location": {
+                  "locationCode": "FRSTO",
+                  "unLocationCode": "FRSTO",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "St Omer",
+                  "freeTextLocation": "St Omer"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "IN_DELIVERY"
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "FREIGHT_COLLECTION"
+                  }
+                ],
+                "outgoingVehicle": {}
+              },
+              {
+                "reached": false,
+                "completed": false,
+                "type": "DESTINATION",
+                "location": {
+                  "locationCode": "FRLGS",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "LONGUENESSE",
+                  "zipCode": "62219"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "CARGO_DELIVERED"
+                  }
+                ]
+              }
+            ],
+            "fromLocation": {
+              "locationCode": "FRFNI",
+              "countryCode": "FR",
+              "countryName": "FRANCE",
+              "internationalName": "NIMES",
+              "zipCode": "30000"
+            },
+            "toLocation": {
+              "locationCode": "FRLGS",
+              "countryCode": "FR",
+              "countryName": "FRANCE",
+              "internationalName": "LONGUENESSE",
+              "zipCode": "62219"
+            }
+          },
+          "milestoneInfo": {
+            "currentStage": "IN_TRANSIT",
+            "currentMilestone": {
+              "type": "ROUTE_LOCATION_MILESTONE",
+              "actualAchievementDateTime": {
+                "flexDateTime": {
+                  "date": "2026-10-13",
+                  "time": "16:10",
+                  "offset": "+02:00"
+                },
+                "dateTime": "2026-10-13T16:10+02:00",
+                "condition": "ACTUAL",
+                "explanation": {
+                  "source": "STATUS",
+                  "statusCode": "1000"
+                }
+              },
+              "city": "Gallargues-Le-Montueux",
+              "countryCode": "FR",
+              "key": {
+                "routeLocationType": "DEPARTURE",
+                "locationMilestoneType": "VEHICLE_ARRIVED"
+              }
+            },
+            "milestoneDates": [
+              {
+                "type": "TRANSPORT_INFORMATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13",
+                    "time": "12:51:56",
+                    "offset": "Z"
+                  },
+                  "dateTime": "2026-10-13T12:51:56Z",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "0141"
+                  }
+                },
+                "key": {
+                  "transportInformationMilestoneType": "BOOKING_SUBMISSION"
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "city": "NIMES",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "ORIGIN",
+                  "locationMilestoneType": "READY_FOR_PICKUP"
+                },
+                "plannedAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13"
+                  },
+                  "dateTime": "2026-10-13T00:00Z",
+                  "condition": "PLANNED",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "0300"
+                  }
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13",
+                    "time": "16:10",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-13T16:10+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1000"
+                  }
+                },
+                "city": "Gallargues-Le-Montueux",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "DEPARTURE",
+                  "locationMilestoneType": "VEHICLE_ARRIVED"
+                }
+              }
+            ]
+          }
+        },
+        "emissionInfo": {
+          "co2e": {}
+        },
+        "links": {
+          "documents": "https://gateway.api.kuehne-nagel.com/transport/execution/documentation/shipment/v3/shipments/shipment-id%3A530258222/documents"
+        }
+      },
+      {
+        "shipmentId": 530257947,
+        "trackingNumber": "RWM009255076",
+        "shipmentCreationDateTime": {
+          "date": "2026-10-13",
+          "time": "12:51:56"
+        },
+        "shipmentCreationIsoDateTime": "2026-10-13T12:51:56",
+        "modeOfTransport": "ROAD",
+        "serviceType": "groupage",
+        "shipmentReferences": {
+          "packageNumbers": [
+            "00840700557000101602"
+          ],
+          "partyReferences": [
+            {
+              "references": [
+                {
+                  "partyType": "CN",
+                  "referenceType": "AAO",
+                  "referenceName": "Consignee's shipment reference no.",
+                  "referenceValues": [
+                    "RWM009255076"
+                  ]
+                },
+                {
+                  "partyType": "PU",
+                  "referenceType": "ABO",
+                  "referenceName": "Originator's Reference Number",
+                  "referenceValues": [
+                    "221965"
+                  ]
+                },
+                {
+                  "partyType": "SH",
+                  "referenceType": "ABO",
+                  "referenceName": "Originator's Reference Number",
+                  "referenceValues": [
+                    "221965"
+                  ]
+                },
+                {
+                  "partyType": "SH",
+                  "referenceType": "BRN",
+                  "referenceName": "Branch",
+                  "referenceValues": [
+                    "62N"
+                  ]
+                },
+                {
+                  "partyType": "NI",
+                  "referenceType": "SL",
+                  "referenceName": "SERVICE LEVEL",
+                  "referenceValues": [
+                    "STANDARD"
+                  ]
+                },
+                {
+                  "partyType": "SH",
+                  "referenceType": "SRN",
+                  "referenceName": "Shipment reference number",
+                  "referenceValues": [
+                    "26-10-0394653"
+                  ]
+                },
+                {
+                  "partyType": "SH",
+                  "referenceType": "TRN",
+                  "referenceName": "Road Tracking Number",
+                  "referenceValues": [
+                    "RWM009255076"
+                  ]
+                },
+                {
+                  "partyType": "PF",
+                  "referenceType": "ZZZ",
+                  "referenceName": "Mutually defined reference number",
+                  "referenceValues": [
+                    "221965"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "shippingInfo": {
+          "incoterm": {
+            "code": "DAP"
+          }
+        },
+        "parties": {
+          "shipper": {
+            "partyType": "SH",
+            "address": {
+              "name": [
+                "MEMPHIS PRODUCTION"
+              ],
+              "street": [
+                "2750 ROUTE MONTPELLIER (DE)"
+              ],
+              "city": [
+                "NIMES"
+              ],
+              "zipCode": "30000",
+              "countryCode": "FR",
+              "countryName": "FRANCE"
+            }
+          },
+          "consignee": {
+            "partyType": "CN",
+            "address": {
+              "name": [
+                "MEMPHIS RESTAURANT LOMME"
+              ],
+              "street": [
+                "1 RUE DU CHATEAU D ISSENGHIEN"
+              ],
+              "city": [
+                "LOMME"
+              ],
+              "zipCode": "59160",
+              "countryCode": "FR",
+              "countryName": "FRANCE"
+            }
+          },
+          "mainParties": [
+            {
+              "partyType": "CU",
+              "address": {
+                "name": [
+                  "FRFNI42"
+                ]
+              }
+            }
+          ],
+          "internalParties": [
+            {
+              "partyType": "FF",
+              "address": {
+                "name": [
+                  "KUEHNE+NAGEL 34-MONTPELLIER"
+                ],
+                "street": [
+                  "5 ALLEE DU PIOT"
+                ],
+                "city": [
+                  "GALLARGUES LE MONTUEUX"
+                ],
+                "zipCode": "30660",
+                "countryCode": "FR",
+                "countryName": "FRANCE",
+                "printAddress": [
+                  "ZAC POLE ACTIF"
+                ]
+              }
+            },
+            {
+              "partyType": "FW",
+              "address": {
+                "name": [
+                  "KUEHNE+NAGEL 62-HARNES"
+                ],
+                "street": [
+                  "PARC ENTREPRISE DE LA MOTE DU BOIS"
+                ],
+                "city": [
+                  "HARNES"
+                ],
+                "zipCode": "62440",
+                "countryCode": "FR",
+                "countryName": "FRANCE"
+              }
+            }
+          ]
+        },
+        "freightInfo": {
+          "cargoInfo": {
+            "numberOfPackages": 1,
+            "marksAndNumbers": [
+              "HANDLING UNIT"
+            ],
+            "cargoItems": [
+              {
+                "quantity": {
+                  "value": 1,
+                  "unit": "CLL"
+                },
+                "weight": {
+                  "value": 275,
+                  "unit": "KG"
+                },
+                "descriptionOfGoods": [
+                  "0"
+                ],
+                "marksAndNumbers": [
+                  "HANDLING UNIT"
+                ]
+              }
+            ]
+          },
+          "weight": {
+            "value": 275,
+            "unit": "KG"
+          },
+          "hasDangerousGoods": false
+        },
+        "routing": {
+          "core": {
+            "routeLocations": [
+              {
+                "reached": true,
+                "completed": true,
+                "type": "ORIGIN",
+                "location": {
+                  "locationCode": "FRFNI",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "NIMES",
+                  "zipCode": "30000"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": true,
+                    "locationMilestoneType": "READY_FOR_PICKUP",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-13"
+                      },
+                      "dateTime": "2026-10-13T00:00Z",
+                      "condition": "PLANNED",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "0300"
+                      }
+                    }
+                  },
+                  {
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                  },
+                  {
+                    "reached": true,
+                    "locationMilestoneType": "CARGO_PICKED_UP"
+                  }
+                ],
+                "outgoingVehicle": {}
+              },
+              {
+                "reached": true,
+                "completed": false,
+                "type": "DEPARTURE",
+                "location": {
+                  "locationCode": "FRGLX",
+                  "unLocationCode": "FRGLX",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "Gallargues-Le-Montueux",
+                  "freeTextLocation": "Gallargues-Le-Montueux"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-13",
+                        "time": "16:10",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-13T16:10+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1000"
+                      }
+                    }
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_DEPARTED"
+                  }
+                ],
+                "outgoingVehicle": {}
+              },
+              {
+                "reached": false,
+                "completed": false,
+                "type": "TRANSIT",
+                "location": {
+                  "locationCode": "FRVSS",
+                  "unLocationCode": "FRVSS",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "Villefranche Sur Saone",
+                  "freeTextLocation": "Villefranche Sur Saone"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_DEPARTED"
+                  }
+                ],
+                "outgoingVehicle": {}
+              },
+              {
+                "reached": false,
+                "completed": false,
+                "type": "ARRIVAL",
+                "location": {
+                  "locationCode": "FRHRN",
+                  "unLocationCode": "FRHRN",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "Harnes",
+                  "freeTextLocation": "Harnes"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "IN_DELIVERY"
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "FREIGHT_COLLECTION"
+                  }
+                ],
+                "outgoingVehicle": {}
+              },
+              {
+                "reached": false,
+                "completed": false,
+                "type": "DESTINATION",
+                "location": {
+                  "locationCode": "FRLOM",
+                  "countryCode": "FR",
+                  "countryName": "FRANCE",
+                  "internationalName": "LOMME",
+                  "zipCode": "59160"
+                },
+                "locationMilestones": [
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                  },
+                  {
+                    "reached": false,
+                    "locationMilestoneType": "CARGO_DELIVERED"
+                  }
+                ]
+              }
+            ],
+            "fromLocation": {
+              "locationCode": "FRFNI",
+              "countryCode": "FR",
+              "countryName": "FRANCE",
+              "internationalName": "NIMES",
+              "zipCode": "30000"
+            },
+            "toLocation": {
+              "locationCode": "FRLOM",
+              "countryCode": "FR",
+              "countryName": "FRANCE",
+              "internationalName": "LOMME",
+              "zipCode": "59160"
+            }
+          },
+          "milestoneInfo": {
+            "currentStage": "IN_TRANSIT",
+            "currentMilestone": {
+              "type": "ROUTE_LOCATION_MILESTONE",
+              "actualAchievementDateTime": {
+                "flexDateTime": {
+                  "date": "2026-10-13",
+                  "time": "16:10",
+                  "offset": "+02:00"
+                },
+                "dateTime": "2026-10-13T16:10+02:00",
+                "condition": "ACTUAL",
+                "explanation": {
+                  "source": "STATUS",
+                  "statusCode": "1000"
+                }
+              },
+              "city": "Gallargues-Le-Montueux",
+              "countryCode": "FR",
+              "key": {
+                "routeLocationType": "DEPARTURE",
+                "locationMilestoneType": "VEHICLE_ARRIVED"
+              }
+            },
+            "milestoneDates": [
+              {
+                "type": "TRANSPORT_INFORMATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13",
+                    "time": "12:51:56",
+                    "offset": "Z"
+                  },
+                  "dateTime": "2026-10-13T12:51:56Z",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "0141"
+                  }
+                },
+                "key": {
+                  "transportInformationMilestoneType": "BOOKING_SUBMISSION"
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "city": "NIMES",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "ORIGIN",
+                  "locationMilestoneType": "READY_FOR_PICKUP"
+                },
+                "plannedAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13"
+                  },
+                  "dateTime": "2026-10-13T00:00Z",
+                  "condition": "PLANNED",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "0300"
+                  }
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13",
+                    "time": "16:10",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-13T16:10+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1000"
+                  }
+                },
+                "city": "Gallargues-Le-Montueux",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "DEPARTURE",
+                  "locationMilestoneType": "VEHICLE_ARRIVED"
+                }
+              }
+            ]
+          }
+        },
+        "emissionInfo": {
+          "co2e": {}
+        },
+        "links": {
+          "documents": "https://gateway.api.kuehne-nagel.com/transport/execution/documentation/shipment/v3/shipments/shipment-id%3A530257947/documents"
+        }
+      },
       {
         "shipmentId": 530093803,
         "trackingNumber": "RWM009240495",
@@ -318,7 +2204,7 @@
                 "outgoingVehicle": {}
               },
               {
-                "reached": false,
+                "reached": true,
                 "completed": false,
                 "type": "TRANSIT",
                 "location": {
@@ -331,8 +2217,21 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-13",
+                        "time": "15:26",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-13T15:26+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1410"
+                      }
+                    }
                   },
                   {
                     "reached": false,
@@ -413,22 +2312,22 @@
               "type": "ROUTE_LOCATION_MILESTONE",
               "actualAchievementDateTime": {
                 "flexDateTime": {
-                  "date": "2026-10-12",
-                  "time": "20:07",
+                  "date": "2026-10-13",
+                  "time": "15:26",
                   "offset": "+02:00"
                 },
-                "dateTime": "2026-10-12T20:07+02:00",
+                "dateTime": "2026-10-13T15:26+02:00",
                 "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "1300"
+                  "statusCode": "1410"
                 }
               },
-              "city": "Gallargues-Le-Montueux",
+              "city": "Tours",
               "countryCode": "FR",
               "key": {
-                "routeLocationType": "DEPARTURE",
-                "locationMilestoneType": "VEHICLE_DEPARTED"
+                "routeLocationType": "TRANSIT",
+                "locationMilestoneType": "VEHICLE_ARRIVED"
               }
             },
             "milestoneDates": [
@@ -514,6 +2413,28 @@
                   "routeLocationType": "DEPARTURE",
                   "locationMilestoneType": "VEHICLE_DEPARTED"
                 }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13",
+                    "time": "15:26",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-13T15:26+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1410"
+                  }
+                },
+                "city": "Tours",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "TRANSIT",
+                  "locationMilestoneType": "VEHICLE_ARRIVED"
+                }
               }
             ]
           }
@@ -523,996 +2444,6 @@
         },
         "links": {
           "documents": "https://gateway.api.kuehne-nagel.com/transport/execution/documentation/shipment/v3/shipments/shipment-id%3A530093803/documents"
-        }
-      },
-      {
-        "shipmentId": 530093676,
-        "trackingNumber": "RWM009242536",
-        "shipmentCreationDateTime": {
-          "date": "2026-10-12",
-          "time": "12:52"
-        },
-        "shipmentCreationIsoDateTime": "2026-10-12T12:52",
-        "modeOfTransport": "ROAD",
-        "serviceType": "groupage",
-        "shipmentReferences": {
-          "packageNumbers": [
-            "00840700557000100568"
-          ],
-          "partyReferences": [
-            {
-              "references": [
-                {
-                  "partyType": "CN",
-                  "referenceType": "AAO",
-                  "referenceName": "Consignee's shipment reference no.",
-                  "referenceValues": [
-                    "RWM009242536"
-                  ]
-                },
-                {
-                  "partyType": "PU",
-                  "referenceType": "ABO",
-                  "referenceName": "Originator's Reference Number",
-                  "referenceValues": [
-                    "221882"
-                  ]
-                },
-                {
-                  "partyType": "SH",
-                  "referenceType": "ABO",
-                  "referenceName": "Originator's Reference Number",
-                  "referenceValues": [
-                    "221882"
-                  ]
-                },
-                {
-                  "partyType": "SH",
-                  "referenceType": "BRN",
-                  "referenceName": "Branch",
-                  "referenceValues": [
-                    "69N"
-                  ]
-                },
-                {
-                  "partyType": "NI",
-                  "referenceType": "SL",
-                  "referenceName": "SERVICE LEVEL",
-                  "referenceValues": [
-                    "STANDARD"
-                  ]
-                },
-                {
-                  "partyType": "SH",
-                  "referenceType": "SRN",
-                  "referenceName": "Shipment reference number",
-                  "referenceValues": [
-                    "26-10-0340570"
-                  ]
-                },
-                {
-                  "partyType": "SH",
-                  "referenceType": "TRN",
-                  "referenceName": "Road Tracking Number",
-                  "referenceValues": [
-                    "RWM009242536"
-                  ]
-                },
-                {
-                  "partyType": "PF",
-                  "referenceType": "ZZZ",
-                  "referenceName": "Mutually defined reference number",
-                  "referenceValues": [
-                    "221882"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        "shippingInfo": {
-          "incoterm": {
-            "code": "DAP"
-          }
-        },
-        "parties": {
-          "shipper": {
-            "partyType": "SH",
-            "address": {
-              "name": [
-                "MEMPHIS PRODUCTION"
-              ],
-              "street": [
-                "2750 ROUTE MONTPELLIER (DE)"
-              ],
-              "city": [
-                "NIMES"
-              ],
-              "zipCode": "30000",
-              "countryCode": "FR",
-              "countryName": "FRANCE"
-            }
-          },
-          "consignee": {
-            "partyType": "CN",
-            "address": {
-              "name": [
-                "MEMPHIS COFFEE VIRIAT"
-              ],
-              "street": [
-                "44 RUE DU PLATEAU"
-              ],
-              "city": [
-                "VIRIAT"
-              ],
-              "zipCode": "01440",
-              "countryCode": "FR",
-              "countryName": "FRANCE",
-              "printAddress": [
-                "44 ZONE COMMERCIALE DE LA NEUVE"
-              ]
-            }
-          },
-          "mainParties": [
-            {
-              "partyType": "CU",
-              "address": {
-                "name": [
-                  "FRFNI42"
-                ]
-              }
-            }
-          ],
-          "internalParties": [
-            {
-              "partyType": "FF",
-              "address": {
-                "name": [
-                  "KUEHNE+NAGEL 34-MONTPELLIER"
-                ],
-                "street": [
-                  "5 ALLEE DU PIOT"
-                ],
-                "city": [
-                  "GALLARGUES LE MONTUEUX"
-                ],
-                "zipCode": "30660",
-                "countryCode": "FR",
-                "countryName": "FRANCE",
-                "printAddress": [
-                  "ZAC POLE ACTIF"
-                ]
-              }
-            },
-            {
-              "partyType": "FW",
-              "address": {
-                "name": [
-                  "KUEHNE+NAGEL 69-VILLEFRANCHE"
-                ],
-                "street": [
-                  "201 RUE LEON JOUHAUX"
-                ],
-                "city": [
-                  "VILLEFRANCHE"
-                ],
-                "zipCode": "69659",
-                "countryCode": "FR",
-                "countryName": "FRANCE",
-                "printAddress": [
-                  "BP 469"
-                ]
-              }
-            }
-          ]
-        },
-        "freightInfo": {
-          "cargoInfo": {
-            "numberOfPackages": 1,
-            "marksAndNumbers": [
-              "HANDLING UNIT"
-            ],
-            "cargoItems": [
-              {
-                "quantity": {
-                  "value": 1,
-                  "unit": "CLL"
-                },
-                "weight": {
-                  "value": 138,
-                  "unit": "KG"
-                },
-                "descriptionOfGoods": [
-                  "0"
-                ],
-                "marksAndNumbers": [
-                  "HANDLING UNIT"
-                ]
-              }
-            ]
-          },
-          "weight": {
-            "value": 138,
-            "unit": "KG"
-          },
-          "hasDangerousGoods": false
-        },
-        "routing": {
-          "core": {
-            "departureDate": {
-              "flexDateTime": {
-                "date": "2026-10-12",
-                "time": "20:08",
-                "offset": "+02:00"
-              },
-              "dateTime": "2026-10-12T20:08+02:00",
-              "condition": "ACTUAL",
-              "explanation": {
-                "source": "STATUS",
-                "statusCode": "1300"
-              }
-            },
-            "arrivalDate": {
-              "flexDateTime": {
-                "date": "2026-10-13",
-                "time": "01:51",
-                "offset": "+02:00"
-              },
-              "dateTime": "2026-10-13T01:51+02:00",
-              "condition": "ACTUAL",
-              "explanation": {
-                "source": "STATUS",
-                "statusCode": "1410"
-              }
-            },
-            "routeLocations": [
-              {
-                "reached": true,
-                "completed": true,
-                "type": "ORIGIN",
-                "location": {
-                  "locationCode": "FRFNI",
-                  "countryCode": "FR",
-                  "countryName": "FRANCE",
-                  "internationalName": "NIMES",
-                  "zipCode": "30000"
-                },
-                "locationMilestones": [
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "READY_FOR_PICKUP",
-                    "achievementDateTime": {
-                      "flexDateTime": {
-                        "date": "2026-10-12"
-                      },
-                      "dateTime": "2026-10-12T00:00Z",
-                      "condition": "PLANNED",
-                      "explanation": {
-                        "source": "STATUS",
-                        "statusCode": "0300"
-                      }
-                    }
-                  },
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
-                  },
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "CARGO_PICKED_UP"
-                  }
-                ],
-                "outgoingVehicle": {}
-              },
-              {
-                "reached": true,
-                "completed": true,
-                "type": "DEPARTURE",
-                "location": {
-                  "locationCode": "FRGLX",
-                  "unLocationCode": "FRGLX",
-                  "countryCode": "FR",
-                  "countryName": "FRANCE",
-                  "internationalName": "Gallargues-Le-Montueux",
-                  "freeTextLocation": "Gallargues-Le-Montueux"
-                },
-                "locationMilestones": [
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "VEHICLE_ARRIVED",
-                    "achievementDateTime": {
-                      "flexDateTime": {
-                        "date": "2026-10-12",
-                        "time": "15:35",
-                        "offset": "+02:00"
-                      },
-                      "dateTime": "2026-10-12T15:35+02:00",
-                      "condition": "ACTUAL",
-                      "explanation": {
-                        "source": "STATUS",
-                        "statusCode": "1000"
-                      }
-                    }
-                  },
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "VEHICLE_DEPARTED",
-                    "achievementDateTime": {
-                      "flexDateTime": {
-                        "date": "2026-10-12",
-                        "time": "20:08",
-                        "offset": "+02:00"
-                      },
-                      "dateTime": "2026-10-12T20:08+02:00",
-                      "condition": "ACTUAL",
-                      "explanation": {
-                        "source": "STATUS",
-                        "statusCode": "1300"
-                      }
-                    }
-                  }
-                ],
-                "outgoingVehicle": {}
-              },
-              {
-                "reached": true,
-                "completed": false,
-                "type": "ARRIVAL",
-                "location": {
-                  "locationCode": "FRVSS",
-                  "unLocationCode": "FRVSS",
-                  "countryCode": "FR",
-                  "countryName": "FRANCE",
-                  "internationalName": "Villefranche Sur Saone",
-                  "freeTextLocation": "Villefranche Sur Saone"
-                },
-                "locationMilestones": [
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "VEHICLE_ARRIVED",
-                    "achievementDateTime": {
-                      "flexDateTime": {
-                        "date": "2026-10-13",
-                        "time": "01:51",
-                        "offset": "+02:00"
-                      },
-                      "dateTime": "2026-10-13T01:51+02:00",
-                      "condition": "ACTUAL",
-                      "explanation": {
-                        "source": "STATUS",
-                        "statusCode": "1410"
-                      }
-                    }
-                  },
-                  {
-                    "reached": false,
-                    "locationMilestoneType": "IN_DELIVERY"
-                  },
-                  {
-                    "reached": false,
-                    "locationMilestoneType": "FREIGHT_COLLECTION"
-                  }
-                ],
-                "outgoingVehicle": {}
-              },
-              {
-                "reached": false,
-                "completed": false,
-                "type": "DESTINATION",
-                "location": {
-                  "locationCode": "FRVRT",
-                  "countryCode": "FR",
-                  "countryName": "FRANCE",
-                  "internationalName": "VIRIAT",
-                  "zipCode": "01440"
-                },
-                "locationMilestones": [
-                  {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
-                  },
-                  {
-                    "reached": false,
-                    "locationMilestoneType": "CARGO_DELIVERED"
-                  }
-                ]
-              }
-            ],
-            "fromLocation": {
-              "locationCode": "FRFNI",
-              "countryCode": "FR",
-              "countryName": "FRANCE",
-              "internationalName": "NIMES",
-              "zipCode": "30000"
-            },
-            "toLocation": {
-              "locationCode": "FRVRT",
-              "countryCode": "FR",
-              "countryName": "FRANCE",
-              "internationalName": "VIRIAT",
-              "zipCode": "01440"
-            }
-          },
-          "milestoneInfo": {
-            "currentStage": "IN_TRANSIT",
-            "currentMilestone": {
-              "type": "ROUTE_LOCATION_MILESTONE",
-              "actualAchievementDateTime": {
-                "flexDateTime": {
-                  "date": "2026-10-13",
-                  "time": "01:51",
-                  "offset": "+02:00"
-                },
-                "dateTime": "2026-10-13T01:51+02:00",
-                "condition": "ACTUAL",
-                "explanation": {
-                  "source": "STATUS",
-                  "statusCode": "1410"
-                }
-              },
-              "city": "Villefranche Sur Saone",
-              "countryCode": "FR",
-              "key": {
-                "routeLocationType": "ARRIVAL",
-                "locationMilestoneType": "VEHICLE_ARRIVED"
-              }
-            },
-            "milestoneDates": [
-              {
-                "type": "TRANSPORT_INFORMATION_MILESTONE",
-                "actualAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-12",
-                    "time": "12:52",
-                    "offset": "Z"
-                  },
-                  "dateTime": "2026-10-12T12:52Z",
-                  "condition": "ACTUAL",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "0141"
-                  }
-                },
-                "key": {
-                  "transportInformationMilestoneType": "BOOKING_SUBMISSION"
-                }
-              },
-              {
-                "type": "ROUTE_LOCATION_MILESTONE",
-                "city": "NIMES",
-                "countryCode": "FR",
-                "key": {
-                  "routeLocationType": "ORIGIN",
-                  "locationMilestoneType": "READY_FOR_PICKUP"
-                },
-                "plannedAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-12"
-                  },
-                  "dateTime": "2026-10-12T00:00Z",
-                  "condition": "PLANNED",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "0300"
-                  }
-                }
-              },
-              {
-                "type": "ROUTE_LOCATION_MILESTONE",
-                "actualAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-12",
-                    "time": "15:35",
-                    "offset": "+02:00"
-                  },
-                  "dateTime": "2026-10-12T15:35+02:00",
-                  "condition": "ACTUAL",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "1000"
-                  }
-                },
-                "city": "Gallargues-Le-Montueux",
-                "countryCode": "FR",
-                "key": {
-                  "routeLocationType": "DEPARTURE",
-                  "locationMilestoneType": "VEHICLE_ARRIVED"
-                }
-              },
-              {
-                "type": "ROUTE_LOCATION_MILESTONE",
-                "actualAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-12",
-                    "time": "20:08",
-                    "offset": "+02:00"
-                  },
-                  "dateTime": "2026-10-12T20:08+02:00",
-                  "condition": "ACTUAL",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "1300"
-                  }
-                },
-                "city": "Gallargues-Le-Montueux",
-                "countryCode": "FR",
-                "key": {
-                  "routeLocationType": "DEPARTURE",
-                  "locationMilestoneType": "VEHICLE_DEPARTED"
-                }
-              },
-              {
-                "type": "ROUTE_LOCATION_MILESTONE",
-                "actualAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-13",
-                    "time": "01:51",
-                    "offset": "+02:00"
-                  },
-                  "dateTime": "2026-10-13T01:51+02:00",
-                  "condition": "ACTUAL",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "1410"
-                  }
-                },
-                "city": "Villefranche Sur Saone",
-                "countryCode": "FR",
-                "key": {
-                  "routeLocationType": "ARRIVAL",
-                  "locationMilestoneType": "VEHICLE_ARRIVED"
-                }
-              }
-            ]
-          }
-        },
-        "emissionInfo": {
-          "co2e": {}
-        },
-        "links": {
-          "documents": "https://gateway.api.kuehne-nagel.com/transport/execution/documentation/shipment/v3/shipments/shipment-id%3A530093676/documents"
-        }
-      },
-      {
-        "shipmentId": 530093619,
-        "trackingNumber": "RWM009241356",
-        "shipmentCreationDateTime": {
-          "date": "2026-10-12",
-          "time": "12:52"
-        },
-        "shipmentCreationIsoDateTime": "2026-10-12T12:52",
-        "modeOfTransport": "ROAD",
-        "serviceType": "groupage",
-        "shipmentReferences": {
-          "packageNumbers": [
-            "00840700557000100414"
-          ],
-          "partyReferences": [
-            {
-              "references": [
-                {
-                  "partyType": "CN",
-                  "referenceType": "AAO",
-                  "referenceName": "Consignee's shipment reference no.",
-                  "referenceValues": [
-                    "RWM009241356"
-                  ]
-                },
-                {
-                  "partyType": "SH",
-                  "referenceType": "ABO",
-                  "referenceName": "Originator's Reference Number",
-                  "referenceValues": [
-                    "221948"
-                  ]
-                },
-                {
-                  "partyType": "PU",
-                  "referenceType": "ABO",
-                  "referenceName": "Originator's Reference Number",
-                  "referenceValues": [
-                    "221948"
-                  ]
-                },
-                {
-                  "partyType": "SH",
-                  "referenceType": "BRN",
-                  "referenceName": "Branch",
-                  "referenceValues": [
-                    "34"
-                  ]
-                },
-                {
-                  "partyType": "NI",
-                  "referenceType": "SL",
-                  "referenceName": "SERVICE LEVEL",
-                  "referenceValues": [
-                    "STANDARD"
-                  ]
-                },
-                {
-                  "partyType": "SH",
-                  "referenceType": "SRN",
-                  "referenceName": "Shipment reference number",
-                  "referenceValues": [
-                    "26-10-0340563"
-                  ]
-                },
-                {
-                  "partyType": "SH",
-                  "referenceType": "TRN",
-                  "referenceName": "Road Tracking Number",
-                  "referenceValues": [
-                    "RWM009241356"
-                  ]
-                },
-                {
-                  "partyType": "PF",
-                  "referenceType": "ZZZ",
-                  "referenceName": "Mutually defined reference number",
-                  "referenceValues": [
-                    "221948"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        "shippingInfo": {
-          "incoterm": {
-            "code": "DAP"
-          }
-        },
-        "parties": {
-          "shipper": {
-            "partyType": "SH",
-            "address": {
-              "name": [
-                "MEMPHIS PRODUCTION"
-              ],
-              "street": [
-                "2750 ROUTE MONTPELLIER (DE)"
-              ],
-              "city": [
-                "NIMES"
-              ],
-              "zipCode": "30000",
-              "countryCode": "FR",
-              "countryName": "FRANCE"
-            }
-          },
-          "consignee": {
-            "partyType": "CN",
-            "address": {
-              "name": [
-                "MEMPHIS RESTAURANT NIMES NIMES"
-              ],
-              "street": [
-                "145 RUE MICHEL DEBRE"
-              ],
-              "city": [
-                "NIMES"
-              ],
-              "zipCode": "30000",
-              "countryCode": "FR",
-              "countryName": "FRANCE"
-            }
-          },
-          "mainParties": [
-            {
-              "partyType": "CU",
-              "address": {
-                "name": [
-                  "FRFNI42"
-                ]
-              }
-            }
-          ],
-          "internalParties": [
-            {
-              "partyType": "FF",
-              "address": {
-                "name": [
-                  "KUEHNE+NAGEL 34-MONTPELLIER"
-                ],
-                "street": [
-                  "5 ALLEE DU PIOT"
-                ],
-                "city": [
-                  "GALLARGUES LE MONTUEUX"
-                ],
-                "zipCode": "30660",
-                "countryCode": "FR",
-                "countryName": "FRANCE",
-                "printAddress": [
-                  "ZAC POLE ACTIF"
-                ]
-              }
-            },
-            {
-              "partyType": "FW",
-              "address": {
-                "name": [
-                  "KUEHNE+NAGEL 34-MONTPELLIER"
-                ],
-                "street": [
-                  "5 ALLEE DU PIOT"
-                ],
-                "city": [
-                  "GALLARGUES LE MONTUEUX"
-                ],
-                "zipCode": "30660",
-                "countryCode": "FR",
-                "countryName": "FRANCE",
-                "printAddress": [
-                  "ZAC POLE ACTIF"
-                ]
-              }
-            }
-          ]
-        },
-        "freightInfo": {
-          "cargoInfo": {
-            "numberOfPackages": 1,
-            "marksAndNumbers": [
-              "HANDLING UNIT"
-            ],
-            "cargoItems": [
-              {
-                "quantity": {
-                  "value": 1,
-                  "unit": "CLL"
-                },
-                "weight": {
-                  "value": 250,
-                  "unit": "KG"
-                },
-                "descriptionOfGoods": [
-                  "0"
-                ],
-                "marksAndNumbers": [
-                  "HANDLING UNIT"
-                ]
-              }
-            ]
-          },
-          "weight": {
-            "value": 250,
-            "unit": "KG"
-          },
-          "hasDangerousGoods": false
-        },
-        "routing": {
-          "core": {
-            "routeLocations": [
-              {
-                "reached": true,
-                "completed": true,
-                "type": "ORIGIN",
-                "location": {
-                  "locationCode": "FRFNI",
-                  "countryCode": "FR",
-                  "countryName": "FRANCE",
-                  "internationalName": "NIMES",
-                  "zipCode": "30000"
-                },
-                "locationMilestones": [
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "READY_FOR_PICKUP",
-                    "achievementDateTime": {
-                      "flexDateTime": {
-                        "date": "2026-10-12"
-                      },
-                      "dateTime": "2026-10-12T00:00Z",
-                      "condition": "PLANNED",
-                      "explanation": {
-                        "source": "STATUS",
-                        "statusCode": "0300"
-                      }
-                    }
-                  },
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
-                  },
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "CARGO_PICKED_UP"
-                  }
-                ],
-                "outgoingVehicle": {}
-              },
-              {
-                "reached": true,
-                "completed": false,
-                "type": "DEPARTURE",
-                "location": {
-                  "locationCode": "FRGLX",
-                  "unLocationCode": "FRGLX",
-                  "countryCode": "FR",
-                  "countryName": "FRANCE",
-                  "internationalName": "Gallargues-Le-Montueux",
-                  "freeTextLocation": "Gallargues-Le-Montueux"
-                },
-                "locationMilestones": [
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "VEHICLE_ARRIVED",
-                    "achievementDateTime": {
-                      "flexDateTime": {
-                        "date": "2026-10-12",
-                        "time": "15:35",
-                        "offset": "+02:00"
-                      },
-                      "dateTime": "2026-10-12T15:35+02:00",
-                      "condition": "ACTUAL",
-                      "explanation": {
-                        "source": "STATUS",
-                        "statusCode": "1000"
-                      }
-                    }
-                  },
-                  {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_DEPARTED"
-                  }
-                ],
-                "outgoingVehicle": {}
-              },
-              {
-                "reached": false,
-                "completed": false,
-                "type": "ARRIVAL",
-                "location": {
-                  "locationCode": "FRGLX",
-                  "unLocationCode": "FRGLX",
-                  "countryCode": "FR",
-                  "countryName": "FRANCE",
-                  "internationalName": "Gallargues-Le-Montueux",
-                  "freeTextLocation": "Gallargues-Le-Montueux"
-                },
-                "locationMilestones": [
-                  {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
-                  },
-                  {
-                    "reached": false,
-                    "locationMilestoneType": "IN_DELIVERY"
-                  },
-                  {
-                    "reached": false,
-                    "locationMilestoneType": "FREIGHT_COLLECTION"
-                  }
-                ]
-              },
-              {
-                "reached": false,
-                "completed": false,
-                "type": "DESTINATION",
-                "locationMilestones": [
-                  {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
-                  },
-                  {
-                    "reached": false,
-                    "locationMilestoneType": "CARGO_DELIVERED"
-                  }
-                ]
-              }
-            ],
-            "fromLocation": {
-              "locationCode": "FRFNI",
-              "countryCode": "FR",
-              "countryName": "FRANCE",
-              "internationalName": "NIMES",
-              "zipCode": "30000"
-            },
-            "toLocation": {
-              "locationCode": "FRGLX",
-              "unLocationCode": "FRGLX",
-              "countryCode": "FR",
-              "countryName": "FRANCE",
-              "internationalName": "Gallargues-Le-Montueux",
-              "freeTextLocation": "Gallargues-Le-Montueux"
-            }
-          },
-          "milestoneInfo": {
-            "currentStage": "IN_TRANSIT",
-            "currentMilestone": {
-              "type": "ROUTE_LOCATION_MILESTONE",
-              "actualAchievementDateTime": {
-                "flexDateTime": {
-                  "date": "2026-10-12",
-                  "time": "15:35",
-                  "offset": "+02:00"
-                },
-                "dateTime": "2026-10-12T15:35+02:00",
-                "condition": "ACTUAL",
-                "explanation": {
-                  "source": "STATUS",
-                  "statusCode": "1000"
-                }
-              },
-              "city": "Gallargues-Le-Montueux",
-              "countryCode": "FR",
-              "key": {
-                "routeLocationType": "DEPARTURE",
-                "locationMilestoneType": "VEHICLE_ARRIVED"
-              }
-            },
-            "milestoneDates": [
-              {
-                "type": "TRANSPORT_INFORMATION_MILESTONE",
-                "actualAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-12",
-                    "time": "12:52",
-                    "offset": "Z"
-                  },
-                  "dateTime": "2026-10-12T12:52Z",
-                  "condition": "ACTUAL",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "0141"
-                  }
-                },
-                "key": {
-                  "transportInformationMilestoneType": "BOOKING_SUBMISSION"
-                }
-              },
-              {
-                "type": "ROUTE_LOCATION_MILESTONE",
-                "city": "NIMES",
-                "countryCode": "FR",
-                "key": {
-                  "routeLocationType": "ORIGIN",
-                  "locationMilestoneType": "READY_FOR_PICKUP"
-                },
-                "plannedAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-12"
-                  },
-                  "dateTime": "2026-10-12T00:00Z",
-                  "condition": "PLANNED",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "0300"
-                  }
-                }
-              },
-              {
-                "type": "ROUTE_LOCATION_MILESTONE",
-                "actualAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-12",
-                    "time": "15:35",
-                    "offset": "+02:00"
-                  },
-                  "dateTime": "2026-10-12T15:35+02:00",
-                  "condition": "ACTUAL",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "1000"
-                  }
-                },
-                "city": "Gallargues-Le-Montueux",
-                "countryCode": "FR",
-                "key": {
-                  "routeLocationType": "DEPARTURE",
-                  "locationMilestoneType": "VEHICLE_ARRIVED"
-                }
-              }
-            ]
-          }
-        },
-        "emissionInfo": {
-          "co2e": {}
-        },
-        "links": {
-          "documents": "https://gateway.api.kuehne-nagel.com/transport/execution/documentation/shipment/v3/shipments/shipment-id%3A530093619/documents"
         }
       },
       {
@@ -1829,7 +2760,7 @@
                 "outgoingVehicle": {}
               },
               {
-                "reached": false,
+                "reached": true,
                 "completed": false,
                 "type": "TRANSIT",
                 "location": {
@@ -1842,8 +2773,21 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-13",
+                        "time": "15:28",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-13T15:28+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1410"
+                      }
+                    }
                   },
                   {
                     "reached": false,
@@ -1924,22 +2868,22 @@
               "type": "ROUTE_LOCATION_MILESTONE",
               "actualAchievementDateTime": {
                 "flexDateTime": {
-                  "date": "2026-10-12",
-                  "time": "20:07",
+                  "date": "2026-10-13",
+                  "time": "15:28",
                   "offset": "+02:00"
                 },
-                "dateTime": "2026-10-12T20:07+02:00",
+                "dateTime": "2026-10-13T15:28+02:00",
                 "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "1300"
+                  "statusCode": "1410"
                 }
               },
-              "city": "Gallargues-Le-Montueux",
+              "city": "Tours",
               "countryCode": "FR",
               "key": {
-                "routeLocationType": "DEPARTURE",
-                "locationMilestoneType": "VEHICLE_DEPARTED"
+                "routeLocationType": "TRANSIT",
+                "locationMilestoneType": "VEHICLE_ARRIVED"
               }
             },
             "milestoneDates": [
@@ -2024,6 +2968,28 @@
                 "key": {
                   "routeLocationType": "DEPARTURE",
                   "locationMilestoneType": "VEHICLE_DEPARTED"
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13",
+                    "time": "15:28",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-13T15:28+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1410"
+                  }
+                },
+                "city": "Tours",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "TRANSIT",
+                  "locationMilestoneType": "VEHICLE_ARRIVED"
                 }
               }
             ]
@@ -2360,7 +3326,7 @@
               },
               {
                 "reached": true,
-                "completed": false,
+                "completed": true,
                 "type": "TRANSIT",
                 "location": {
                   "locationCode": "FRBEA",
@@ -2389,8 +3355,21 @@
                     }
                   },
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_DEPARTED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_DEPARTED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-13",
+                        "time": "14:05",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-13T14:05+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1300"
+                      }
+                    }
                   }
                 ],
                 "outgoingVehicle": {}
@@ -2468,21 +3447,21 @@
               "actualAchievementDateTime": {
                 "flexDateTime": {
                   "date": "2026-10-13",
-                  "time": "04:15",
+                  "time": "14:05",
                   "offset": "+02:00"
                 },
-                "dateTime": "2026-10-13T04:15+02:00",
+                "dateTime": "2026-10-13T14:05+02:00",
                 "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "1410"
+                  "statusCode": "1300"
                 }
               },
               "city": "Beaune",
               "countryCode": "FR",
               "key": {
                 "routeLocationType": "TRANSIT",
-                "locationMilestoneType": "VEHICLE_ARRIVED"
+                "locationMilestoneType": "VEHICLE_DEPARTED"
               }
             },
             "milestoneDates": [
@@ -2589,6 +3568,28 @@
                 "key": {
                   "routeLocationType": "TRANSIT",
                   "locationMilestoneType": "VEHICLE_ARRIVED"
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13",
+                    "time": "14:05",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-13T14:05+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1300"
+                  }
+                },
+                "city": "Beaune",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "TRANSIT",
+                  "locationMilestoneType": "VEHICLE_DEPARTED"
                 }
               }
             ]
@@ -3153,579 +4154,6 @@
         },
         "links": {
           "documents": "https://gateway.api.kuehne-nagel.com/transport/execution/documentation/shipment/v3/shipments/shipment-id%3A530106356/documents"
-        }
-      },
-      {
-        "shipmentId": 530106184,
-        "trackingNumber": "RWM009241060",
-        "shipmentCreationDateTime": {
-          "date": "2026-10-12",
-          "time": "12:51:59"
-        },
-        "shipmentCreationIsoDateTime": "2026-10-12T12:51:59",
-        "modeOfTransport": "ROAD",
-        "serviceType": "groupage",
-        "shipmentReferences": {
-          "packageNumbers": [
-            "00840700557000100360"
-          ],
-          "partyReferences": [
-            {
-              "references": [
-                {
-                  "partyType": "CN",
-                  "referenceType": "AAO",
-                  "referenceName": "Consignee's shipment reference no.",
-                  "referenceValues": [
-                    "RWM009241060"
-                  ]
-                },
-                {
-                  "partyType": "SH",
-                  "referenceType": "ABO",
-                  "referenceName": "Originator's Reference Number",
-                  "referenceValues": [
-                    "221947"
-                  ]
-                },
-                {
-                  "partyType": "PU",
-                  "referenceType": "ABO",
-                  "referenceName": "Originator's Reference Number",
-                  "referenceValues": [
-                    "221947"
-                  ]
-                },
-                {
-                  "partyType": "SH",
-                  "referenceType": "BRN",
-                  "referenceName": "Branch",
-                  "referenceValues": [
-                    "34"
-                  ]
-                },
-                {
-                  "partyType": "NI",
-                  "referenceType": "SL",
-                  "referenceName": "SERVICE LEVEL",
-                  "referenceValues": [
-                    "STANDARD"
-                  ]
-                },
-                {
-                  "partyType": "SH",
-                  "referenceType": "SRN",
-                  "referenceName": "Shipment reference number",
-                  "referenceValues": [
-                    "26-10-0340538"
-                  ]
-                },
-                {
-                  "partyType": "SH",
-                  "referenceType": "TRN",
-                  "referenceName": "Road Tracking Number",
-                  "referenceValues": [
-                    "RWM009241060"
-                  ]
-                },
-                {
-                  "partyType": "PF",
-                  "referenceType": "ZZZ",
-                  "referenceName": "Mutually defined reference number",
-                  "referenceValues": [
-                    "221947"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        "shippingInfo": {
-          "incoterm": {
-            "code": "DAP"
-          }
-        },
-        "parties": {
-          "shipper": {
-            "partyType": "SH",
-            "address": {
-              "name": [
-                "MEMPHIS PRODUCTION"
-              ],
-              "street": [
-                "2750 ROUTE MONTPELLIER (DE)"
-              ],
-              "city": [
-                "NIMES"
-              ],
-              "zipCode": "30000",
-              "countryCode": "FR",
-              "countryName": "FRANCE"
-            }
-          },
-          "consignee": {
-            "partyType": "CN",
-            "address": {
-              "name": [
-                "MEMPHIS RESTAURANT MONTPELLIER MONT"
-              ],
-              "street": [
-                "1049  RUE HELENE BOUCHER"
-              ],
-              "city": [
-                "MAUGUIO"
-              ],
-              "zipCode": "34130",
-              "countryCode": "FR",
-              "countryName": "FRANCE"
-            }
-          },
-          "mainParties": [
-            {
-              "partyType": "CU",
-              "address": {
-                "name": [
-                  "FRFNI42"
-                ]
-              }
-            }
-          ],
-          "internalParties": [
-            {
-              "partyType": "FF",
-              "address": {
-                "name": [
-                  "KUEHNE+NAGEL 34-MONTPELLIER"
-                ],
-                "street": [
-                  "5 ALLEE DU PIOT"
-                ],
-                "city": [
-                  "GALLARGUES LE MONTUEUX"
-                ],
-                "zipCode": "30660",
-                "countryCode": "FR",
-                "countryName": "FRANCE",
-                "printAddress": [
-                  "ZAC POLE ACTIF"
-                ]
-              }
-            },
-            {
-              "partyType": "FW",
-              "address": {
-                "name": [
-                  "KUEHNE+NAGEL 34-MONTPELLIER"
-                ],
-                "street": [
-                  "5 ALLEE DU PIOT"
-                ],
-                "city": [
-                  "GALLARGUES LE MONTUEUX"
-                ],
-                "zipCode": "30660",
-                "countryCode": "FR",
-                "countryName": "FRANCE",
-                "printAddress": [
-                  "ZAC POLE ACTIF"
-                ]
-              }
-            }
-          ]
-        },
-        "freightInfo": {
-          "cargoInfo": {
-            "numberOfPackages": 1,
-            "marksAndNumbers": [
-              "HANDLING UNIT"
-            ],
-            "cargoItems": [
-              {
-                "quantity": {
-                  "value": 1,
-                  "unit": "CLL"
-                },
-                "weight": {
-                  "value": 204,
-                  "unit": "KG"
-                },
-                "descriptionOfGoods": [
-                  "0"
-                ],
-                "marksAndNumbers": [
-                  "HANDLING UNIT"
-                ]
-              }
-            ]
-          },
-          "weight": {
-            "value": 204,
-            "unit": "KG"
-          },
-          "hasDangerousGoods": false
-        },
-        "routing": {
-          "core": {
-            "completionDate": {
-              "flexDateTime": {
-                "date": "2026-10-13",
-                "time": "00:00",
-                "offset": "+02:00"
-              },
-              "dateTime": "2026-10-13T00:00+02:00",
-              "condition": "PLANNED",
-              "explanation": {
-                "source": "STATUS",
-                "statusCode": "2525"
-              }
-            },
-            "routeLocations": [
-              {
-                "reached": true,
-                "completed": true,
-                "type": "ORIGIN",
-                "location": {
-                  "locationCode": "FRFNI",
-                  "countryCode": "FR",
-                  "countryName": "FRANCE",
-                  "internationalName": "NIMES",
-                  "zipCode": "30000"
-                },
-                "locationMilestones": [
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "READY_FOR_PICKUP",
-                    "achievementDateTime": {
-                      "flexDateTime": {
-                        "date": "2026-10-12"
-                      },
-                      "dateTime": "2026-10-12T00:00Z",
-                      "condition": "PLANNED",
-                      "explanation": {
-                        "source": "STATUS",
-                        "statusCode": "0300"
-                      }
-                    }
-                  },
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
-                  },
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "CARGO_PICKED_UP"
-                  }
-                ],
-                "outgoingVehicle": {}
-              },
-              {
-                "reached": true,
-                "completed": true,
-                "type": "DEPARTURE",
-                "location": {
-                  "locationCode": "FRGLX",
-                  "unLocationCode": "FRGLX",
-                  "countryCode": "FR",
-                  "countryName": "FRANCE",
-                  "internationalName": "Gallargues-Le-Montueux",
-                  "freeTextLocation": "Gallargues-Le-Montueux"
-                },
-                "locationMilestones": [
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "VEHICLE_ARRIVED",
-                    "achievementDateTime": {
-                      "flexDateTime": {
-                        "date": "2026-10-12",
-                        "time": "15:35",
-                        "offset": "+02:00"
-                      },
-                      "dateTime": "2026-10-12T15:35+02:00",
-                      "condition": "ACTUAL",
-                      "explanation": {
-                        "source": "STATUS",
-                        "statusCode": "1000"
-                      }
-                    }
-                  },
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "VEHICLE_DEPARTED"
-                  }
-                ],
-                "outgoingVehicle": {}
-              },
-              {
-                "reached": true,
-                "completed": false,
-                "type": "ARRIVAL",
-                "location": {
-                  "locationCode": "FRGLX",
-                  "unLocationCode": "FRGLX",
-                  "countryCode": "FR",
-                  "countryName": "FRANCE",
-                  "internationalName": "Gallargues-Le-Montueux",
-                  "freeTextLocation": "Gallargues-Le-Montueux"
-                },
-                "locationMilestones": [
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
-                  },
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "IN_DELIVERY",
-                    "achievementDateTime": {
-                      "flexDateTime": {
-                        "date": "2026-10-13",
-                        "time": "07:49",
-                        "offset": "+02:00"
-                      },
-                      "dateTime": "2026-10-13T07:49+02:00",
-                      "condition": "ACTUAL",
-                      "explanation": {
-                        "source": "STATUS",
-                        "statusCode": "2600"
-                      }
-                    }
-                  },
-                  {
-                    "reached": false,
-                    "locationMilestoneType": "FREIGHT_COLLECTION"
-                  }
-                ],
-                "outgoingVehicle": {}
-              },
-              {
-                "reached": false,
-                "completed": false,
-                "type": "DESTINATION",
-                "location": {
-                  "locationCode": "FRMGU",
-                  "countryCode": "FR",
-                  "countryName": "FRANCE",
-                  "internationalName": "MAUGUIO",
-                  "zipCode": "34130"
-                },
-                "locationMilestones": [
-                  {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
-                  },
-                  {
-                    "reached": false,
-                    "locationMilestoneType": "CARGO_DELIVERED",
-                    "achievementDateTime": {
-                      "flexDateTime": {
-                        "date": "2026-10-13",
-                        "time": "00:00",
-                        "offset": "+02:00"
-                      },
-                      "dateTime": "2026-10-13T00:00+02:00",
-                      "condition": "PLANNED",
-                      "explanation": {
-                        "source": "STATUS",
-                        "statusCode": "2525"
-                      }
-                    }
-                  }
-                ]
-              }
-            ],
-            "fromLocation": {
-              "locationCode": "FRFNI",
-              "countryCode": "FR",
-              "countryName": "FRANCE",
-              "internationalName": "NIMES",
-              "zipCode": "30000"
-            },
-            "toLocation": {
-              "locationCode": "FRMGU",
-              "countryCode": "FR",
-              "countryName": "FRANCE",
-              "internationalName": "MAUGUIO",
-              "zipCode": "34130"
-            }
-          },
-          "milestoneInfo": {
-            "currentStage": "IN_TRANSIT",
-            "currentMilestone": {
-              "type": "ROUTE_LOCATION_MILESTONE",
-              "actualAchievementDateTime": {
-                "flexDateTime": {
-                  "date": "2026-10-13",
-                  "time": "07:49",
-                  "offset": "+02:00"
-                },
-                "dateTime": "2026-10-13T07:49+02:00",
-                "condition": "ACTUAL",
-                "explanation": {
-                  "source": "STATUS",
-                  "statusCode": "2600"
-                }
-              },
-              "city": "Gallargues-Le-Montueux",
-              "countryCode": "FR",
-              "key": {
-                "routeLocationType": "ARRIVAL",
-                "locationMilestoneType": "IN_DELIVERY"
-              }
-            },
-            "completionMilestone": {
-              "type": "ROUTE_LOCATION_MILESTONE",
-              "city": "MAUGUIO",
-              "countryCode": "FR",
-              "key": {
-                "routeLocationType": "DESTINATION",
-                "locationMilestoneType": "CARGO_DELIVERED"
-              },
-              "plannedAchievementDateTime": {
-                "flexDateTime": {
-                  "date": "2026-10-13",
-                  "time": "00:00",
-                  "offset": "+02:00"
-                },
-                "dateTime": "2026-10-13T00:00+02:00",
-                "condition": "PLANNED",
-                "explanation": {
-                  "source": "STATUS",
-                  "statusCode": "2525"
-                }
-              }
-            },
-            "milestoneDates": [
-              {
-                "type": "TRANSPORT_INFORMATION_MILESTONE",
-                "actualAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-12",
-                    "time": "12:51:59",
-                    "offset": "Z"
-                  },
-                  "dateTime": "2026-10-12T12:51:59Z",
-                  "condition": "ACTUAL",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "0141"
-                  }
-                },
-                "key": {
-                  "transportInformationMilestoneType": "BOOKING_SUBMISSION"
-                }
-              },
-              {
-                "type": "ROUTE_LOCATION_MILESTONE",
-                "city": "NIMES",
-                "countryCode": "FR",
-                "key": {
-                  "routeLocationType": "ORIGIN",
-                  "locationMilestoneType": "READY_FOR_PICKUP"
-                },
-                "plannedAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-12"
-                  },
-                  "dateTime": "2026-10-12T00:00Z",
-                  "condition": "PLANNED",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "0300"
-                  }
-                }
-              },
-              {
-                "type": "ROUTE_LOCATION_MILESTONE",
-                "actualAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-12",
-                    "time": "15:35",
-                    "offset": "+02:00"
-                  },
-                  "dateTime": "2026-10-12T15:35+02:00",
-                  "condition": "ACTUAL",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "1000"
-                  }
-                },
-                "city": "Gallargues-Le-Montueux",
-                "countryCode": "FR",
-                "key": {
-                  "routeLocationType": "DEPARTURE",
-                  "locationMilestoneType": "VEHICLE_ARRIVED"
-                }
-              },
-              {
-                "type": "ROUTE_LOCATION_MILESTONE",
-                "actualAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-13",
-                    "time": "07:49",
-                    "offset": "+02:00"
-                  },
-                  "dateTime": "2026-10-13T07:49+02:00",
-                  "condition": "ACTUAL",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "2600"
-                  }
-                },
-                "city": "Gallargues-Le-Montueux",
-                "countryCode": "FR",
-                "key": {
-                  "routeLocationType": "ARRIVAL",
-                  "locationMilestoneType": "IN_DELIVERY"
-                }
-              },
-              {
-                "type": "ROUTE_LOCATION_MILESTONE",
-                "city": "MAUGUIO",
-                "countryCode": "FR",
-                "key": {
-                  "routeLocationType": "DESTINATION",
-                  "locationMilestoneType": "CARGO_DELIVERED"
-                },
-                "plannedAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-13",
-                    "time": "00:00",
-                    "offset": "+02:00"
-                  },
-                  "dateTime": "2026-10-13T00:00+02:00",
-                  "condition": "PLANNED",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "2525"
-                  }
-                }
-              },
-              {
-                "type": "TRANSPORT_INFORMATION_MILESTONE",
-                "actualAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-12",
-                    "time": "14:08",
-                    "offset": "Z"
-                  },
-                  "dateTime": "2026-10-12T14:08Z",
-                  "condition": "PLANNED",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "2525"
-                  }
-                },
-                "key": {
-                  "transportInformationMilestoneType": "DELIVERY_APPOINTMENT_SUBMISSION"
-                }
-              }
-            ]
-          }
-        },
-        "emissionInfo": {
-          "co2e": {}
-        },
-        "links": {
-          "documents": "https://gateway.api.kuehne-nagel.com/transport/execution/documentation/shipment/v3/shipments/shipment-id%3A530106184/documents"
         }
       },
       {
@@ -8795,6 +9223,19 @@
                 "statusCode": "1300"
               }
             },
+            "arrivalDate": {
+              "flexDateTime": {
+                "date": "2026-10-13",
+                "time": "15:16",
+                "offset": "+02:00"
+              },
+              "dateTime": "2026-10-13T15:16+02:00",
+              "condition": "ACTUAL",
+              "explanation": {
+                "source": "STATUS",
+                "statusCode": "1410"
+              }
+            },
             "routeLocations": [
               {
                 "reached": true,
@@ -8885,7 +9326,7 @@
                 "outgoingVehicle": {}
               },
               {
-                "reached": false,
+                "reached": true,
                 "completed": false,
                 "type": "ARRIVAL",
                 "location": {
@@ -8898,8 +9339,21 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-13",
+                        "time": "15:16",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-13T15:16+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1410"
+                      }
+                    }
                   },
                   {
                     "reached": false,
@@ -8956,22 +9410,22 @@
               "type": "ROUTE_LOCATION_MILESTONE",
               "actualAchievementDateTime": {
                 "flexDateTime": {
-                  "date": "2026-10-12",
-                  "time": "20:07",
+                  "date": "2026-10-13",
+                  "time": "15:16",
                   "offset": "+02:00"
                 },
-                "dateTime": "2026-10-12T20:07+02:00",
+                "dateTime": "2026-10-13T15:16+02:00",
                 "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "1300"
+                  "statusCode": "1410"
                 }
               },
-              "city": "Gallargues-Le-Montueux",
+              "city": "Tours",
               "countryCode": "FR",
               "key": {
-                "routeLocationType": "DEPARTURE",
-                "locationMilestoneType": "VEHICLE_DEPARTED"
+                "routeLocationType": "ARRIVAL",
+                "locationMilestoneType": "VEHICLE_ARRIVED"
               }
             },
             "milestoneDates": [
@@ -9057,549 +9511,16 @@
                   "routeLocationType": "DEPARTURE",
                   "locationMilestoneType": "VEHICLE_DEPARTED"
                 }
-              }
-            ]
-          }
-        },
-        "emissionInfo": {
-          "co2e": {}
-        },
-        "links": {
-          "documents": "https://gateway.api.kuehne-nagel.com/transport/execution/documentation/shipment/v3/shipments/shipment-id%3A530093191/documents"
-        }
-      },
-      {
-        "shipmentId": 529940589,
-        "trackingNumber": "RWM009230301",
-        "shipmentCreationDateTime": {
-          "date": "2026-10-09",
-          "time": "12:32:40"
-        },
-        "shipmentCreationIsoDateTime": "2026-10-09T12:32:40",
-        "modeOfTransport": "ROAD",
-        "serviceType": "groupage",
-        "shipmentReferences": {
-          "packageNumbers": [
-            "00840700557000098919"
-          ],
-          "partyReferences": [
-            {
-              "references": [
-                {
-                  "partyType": "CN",
-                  "referenceType": "AAO",
-                  "referenceName": "Consignee's shipment reference no.",
-                  "referenceValues": [
-                    "RWM009230301"
-                  ]
-                },
-                {
-                  "partyType": "SH",
-                  "referenceType": "ABO",
-                  "referenceName": "Originator's Reference Number",
-                  "referenceValues": [
-                    "221937"
-                  ]
-                },
-                {
-                  "partyType": "PU",
-                  "referenceType": "ABO",
-                  "referenceName": "Originator's Reference Number",
-                  "referenceValues": [
-                    "221937"
-                  ]
-                },
-                {
-                  "partyType": "SH",
-                  "referenceType": "BRN",
-                  "referenceName": "Branch",
-                  "referenceValues": [
-                    "37"
-                  ]
-                },
-                {
-                  "partyType": "NI",
-                  "referenceType": "SL",
-                  "referenceName": "SERVICE LEVEL",
-                  "referenceValues": [
-                    "STANDARD"
-                  ]
-                },
-                {
-                  "partyType": "SH",
-                  "referenceType": "SRN",
-                  "referenceName": "Shipment reference number",
-                  "referenceValues": [
-                    "26-10-0305162"
-                  ]
-                },
-                {
-                  "partyType": "SH",
-                  "referenceType": "TRN",
-                  "referenceName": "Road Tracking Number",
-                  "referenceValues": [
-                    "RWM009230301"
-                  ]
-                },
-                {
-                  "partyType": "PF",
-                  "referenceType": "ZZZ",
-                  "referenceName": "Mutually defined reference number",
-                  "referenceValues": [
-                    "221937"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        "shippingInfo": {
-          "incoterm": {
-            "code": "DAP"
-          }
-        },
-        "parties": {
-          "shipper": {
-            "partyType": "SH",
-            "address": {
-              "name": [
-                "MEMPHIS PRODUCTION"
-              ],
-              "street": [
-                "2750 ROUTE MONTPELLIER (DE)"
-              ],
-              "city": [
-                "NIMES"
-              ],
-              "zipCode": "30000",
-              "countryCode": "FR",
-              "countryName": "FRANCE"
-            }
-          },
-          "consignee": {
-            "partyType": "CN",
-            "address": {
-              "name": [
-                "MEMPHIS RESTAURANT BLOIS BLOIS"
-              ],
-              "street": [
-                "30 BOULEVARD DE L INDUSTRIE"
-              ],
-              "city": [
-                "BLOIS"
-              ],
-              "zipCode": "41000",
-              "countryCode": "FR",
-              "countryName": "FRANCE"
-            }
-          },
-          "mainParties": [
-            {
-              "partyType": "CU",
-              "address": {
-                "name": [
-                  "FRFNI42"
-                ]
-              }
-            }
-          ],
-          "internalParties": [
-            {
-              "partyType": "FF",
-              "address": {
-                "name": [
-                  "KUEHNE+NAGEL 34-MONTPELLIER"
-                ],
-                "street": [
-                  "5 ALLEE DU PIOT"
-                ],
-                "city": [
-                  "GALLARGUES LE MONTUEUX"
-                ],
-                "zipCode": "30660",
-                "countryCode": "FR",
-                "countryName": "FRANCE",
-                "printAddress": [
-                  "ZAC POLE ACTIF"
-                ]
-              }
-            },
-            {
-              "partyType": "FW",
-              "address": {
-                "name": [
-                  "KUEHNE+NAGEL 37-TOURS"
-                ],
-                "street": [
-                  "150 AVENUE DU CASSANTIN"
-                ],
-                "city": [
-                  "CHANCEAUX SUR CHOISILLE"
-                ],
-                "zipCode": "37390",
-                "countryCode": "FR",
-                "countryName": "FRANCE"
-              }
-            }
-          ]
-        },
-        "freightInfo": {
-          "cargoInfo": {
-            "numberOfPackages": 1,
-            "marksAndNumbers": [
-              "HANDLING UNIT"
-            ],
-            "cargoItems": [
-              {
-                "quantity": {
-                  "value": 1,
-                  "unit": "CLL"
-                },
-                "weight": {
-                  "value": 120,
-                  "unit": "KG"
-                },
-                "descriptionOfGoods": [
-                  "0"
-                ],
-                "marksAndNumbers": [
-                  "HANDLING UNIT"
-                ]
-              }
-            ]
-          },
-          "weight": {
-            "value": 120,
-            "unit": "KG"
-          },
-          "hasDangerousGoods": false
-        },
-        "routing": {
-          "core": {
-            "departureDate": {
-              "flexDateTime": {
-                "date": "2026-10-09",
-                "time": "20:07",
-                "offset": "+02:00"
-              },
-              "dateTime": "2026-10-09T20:07+02:00",
-              "condition": "ACTUAL",
-              "explanation": {
-                "source": "STATUS",
-                "statusCode": "1300"
-              }
-            },
-            "arrivalDate": {
-              "flexDateTime": {
-                "date": "2026-10-12",
-                "time": "16:19",
-                "offset": "+02:00"
-              },
-              "dateTime": "2026-10-12T16:19+02:00",
-              "condition": "ACTUAL",
-              "explanation": {
-                "source": "STATUS",
-                "statusCode": "1410"
-              }
-            },
-            "routeLocations": [
-              {
-                "reached": true,
-                "completed": true,
-                "type": "ORIGIN",
-                "location": {
-                  "locationCode": "FRFNI",
-                  "countryCode": "FR",
-                  "countryName": "FRANCE",
-                  "internationalName": "NIMES",
-                  "zipCode": "30000"
-                },
-                "locationMilestones": [
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "READY_FOR_PICKUP",
-                    "achievementDateTime": {
-                      "flexDateTime": {
-                        "date": "2026-10-09"
-                      },
-                      "dateTime": "2026-10-09T00:00Z",
-                      "condition": "PLANNED",
-                      "explanation": {
-                        "source": "STATUS",
-                        "statusCode": "0300"
-                      }
-                    }
-                  },
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
-                  },
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "CARGO_PICKED_UP"
-                  }
-                ],
-                "outgoingVehicle": {}
-              },
-              {
-                "reached": true,
-                "completed": true,
-                "type": "DEPARTURE",
-                "location": {
-                  "locationCode": "FRGLX",
-                  "unLocationCode": "FRGLX",
-                  "countryCode": "FR",
-                  "countryName": "FRANCE",
-                  "internationalName": "Gallargues-Le-Montueux",
-                  "freeTextLocation": "Gallargues-Le-Montueux"
-                },
-                "locationMilestones": [
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "VEHICLE_ARRIVED",
-                    "achievementDateTime": {
-                      "flexDateTime": {
-                        "date": "2026-10-09",
-                        "time": "16:16",
-                        "offset": "+02:00"
-                      },
-                      "dateTime": "2026-10-09T16:16+02:00",
-                      "condition": "ACTUAL",
-                      "explanation": {
-                        "source": "STATUS",
-                        "statusCode": "1000"
-                      }
-                    }
-                  },
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "VEHICLE_DEPARTED",
-                    "achievementDateTime": {
-                      "flexDateTime": {
-                        "date": "2026-10-09",
-                        "time": "20:07",
-                        "offset": "+02:00"
-                      },
-                      "dateTime": "2026-10-09T20:07+02:00",
-                      "condition": "ACTUAL",
-                      "explanation": {
-                        "source": "STATUS",
-                        "statusCode": "1300"
-                      }
-                    }
-                  }
-                ],
-                "outgoingVehicle": {}
-              },
-              {
-                "reached": true,
-                "completed": false,
-                "type": "ARRIVAL",
-                "location": {
-                  "locationCode": "FRTUF",
-                  "unLocationCode": "FRTUF",
-                  "countryCode": "FR",
-                  "countryName": "FRANCE",
-                  "internationalName": "Tours",
-                  "freeTextLocation": "Tours"
-                },
-                "locationMilestones": [
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "VEHICLE_ARRIVED",
-                    "achievementDateTime": {
-                      "flexDateTime": {
-                        "date": "2026-10-12",
-                        "time": "16:19",
-                        "offset": "+02:00"
-                      },
-                      "dateTime": "2026-10-12T16:19+02:00",
-                      "condition": "ACTUAL",
-                      "explanation": {
-                        "source": "STATUS",
-                        "statusCode": "1410"
-                      }
-                    }
-                  },
-                  {
-                    "reached": true,
-                    "locationMilestoneType": "IN_DELIVERY",
-                    "achievementDateTime": {
-                      "flexDateTime": {
-                        "date": "2026-10-13",
-                        "time": "06:49",
-                        "offset": "+02:00"
-                      },
-                      "dateTime": "2026-10-13T06:49+02:00",
-                      "condition": "ACTUAL",
-                      "explanation": {
-                        "source": "STATUS",
-                        "statusCode": "2600"
-                      }
-                    }
-                  },
-                  {
-                    "reached": false,
-                    "locationMilestoneType": "FREIGHT_COLLECTION"
-                  }
-                ],
-                "outgoingVehicle": {}
-              },
-              {
-                "reached": false,
-                "completed": false,
-                "type": "DESTINATION",
-                "location": {
-                  "locationCode": "FRBLO",
-                  "countryCode": "FR",
-                  "countryName": "FRANCE",
-                  "internationalName": "BLOIS",
-                  "zipCode": "41000"
-                },
-                "locationMilestones": [
-                  {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
-                  },
-                  {
-                    "reached": false,
-                    "locationMilestoneType": "CARGO_DELIVERED"
-                  }
-                ]
-              }
-            ],
-            "fromLocation": {
-              "locationCode": "FRFNI",
-              "countryCode": "FR",
-              "countryName": "FRANCE",
-              "internationalName": "NIMES",
-              "zipCode": "30000"
-            },
-            "toLocation": {
-              "locationCode": "FRBLO",
-              "countryCode": "FR",
-              "countryName": "FRANCE",
-              "internationalName": "BLOIS",
-              "zipCode": "41000"
-            }
-          },
-          "milestoneInfo": {
-            "currentStage": "IN_TRANSIT",
-            "currentMilestone": {
-              "type": "ROUTE_LOCATION_MILESTONE",
-              "actualAchievementDateTime": {
-                "flexDateTime": {
-                  "date": "2026-10-13",
-                  "time": "06:49",
-                  "offset": "+02:00"
-                },
-                "dateTime": "2026-10-13T06:49+02:00",
-                "condition": "ACTUAL",
-                "explanation": {
-                  "source": "STATUS",
-                  "statusCode": "2600"
-                }
-              },
-              "city": "Tours",
-              "countryCode": "FR",
-              "key": {
-                "routeLocationType": "ARRIVAL",
-                "locationMilestoneType": "IN_DELIVERY"
-              }
-            },
-            "milestoneDates": [
-              {
-                "type": "TRANSPORT_INFORMATION_MILESTONE",
-                "actualAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-09",
-                    "time": "12:32:40",
-                    "offset": "Z"
-                  },
-                  "dateTime": "2026-10-09T12:32:40Z",
-                  "condition": "ACTUAL",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "0141"
-                  }
-                },
-                "key": {
-                  "transportInformationMilestoneType": "BOOKING_SUBMISSION"
-                }
-              },
-              {
-                "type": "ROUTE_LOCATION_MILESTONE",
-                "city": "NIMES",
-                "countryCode": "FR",
-                "key": {
-                  "routeLocationType": "ORIGIN",
-                  "locationMilestoneType": "READY_FOR_PICKUP"
-                },
-                "plannedAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-09"
-                  },
-                  "dateTime": "2026-10-09T00:00Z",
-                  "condition": "PLANNED",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "0300"
-                  }
-                }
               },
               {
                 "type": "ROUTE_LOCATION_MILESTONE",
                 "actualAchievementDateTime": {
                   "flexDateTime": {
-                    "date": "2026-10-09",
-                    "time": "16:16",
+                    "date": "2026-10-13",
+                    "time": "15:16",
                     "offset": "+02:00"
                   },
-                  "dateTime": "2026-10-09T16:16+02:00",
-                  "condition": "ACTUAL",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "1000"
-                  }
-                },
-                "city": "Gallargues-Le-Montueux",
-                "countryCode": "FR",
-                "key": {
-                  "routeLocationType": "DEPARTURE",
-                  "locationMilestoneType": "VEHICLE_ARRIVED"
-                }
-              },
-              {
-                "type": "ROUTE_LOCATION_MILESTONE",
-                "actualAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-09",
-                    "time": "20:07",
-                    "offset": "+02:00"
-                  },
-                  "dateTime": "2026-10-09T20:07+02:00",
-                  "condition": "ACTUAL",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "1300"
-                  }
-                },
-                "city": "Gallargues-Le-Montueux",
-                "countryCode": "FR",
-                "key": {
-                  "routeLocationType": "DEPARTURE",
-                  "locationMilestoneType": "VEHICLE_DEPARTED"
-                }
-              },
-              {
-                "type": "ROUTE_LOCATION_MILESTONE",
-                "actualAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-12",
-                    "time": "16:19",
-                    "offset": "+02:00"
-                  },
-                  "dateTime": "2026-10-12T16:19+02:00",
+                  "dateTime": "2026-10-13T15:16+02:00",
                   "condition": "ACTUAL",
                   "explanation": {
                     "source": "STATUS",
@@ -9612,28 +9533,6 @@
                   "routeLocationType": "ARRIVAL",
                   "locationMilestoneType": "VEHICLE_ARRIVED"
                 }
-              },
-              {
-                "type": "ROUTE_LOCATION_MILESTONE",
-                "actualAchievementDateTime": {
-                  "flexDateTime": {
-                    "date": "2026-10-13",
-                    "time": "06:49",
-                    "offset": "+02:00"
-                  },
-                  "dateTime": "2026-10-13T06:49+02:00",
-                  "condition": "ACTUAL",
-                  "explanation": {
-                    "source": "STATUS",
-                    "statusCode": "2600"
-                  }
-                },
-                "city": "Tours",
-                "countryCode": "FR",
-                "key": {
-                  "routeLocationType": "ARRIVAL",
-                  "locationMilestoneType": "IN_DELIVERY"
-                }
               }
             ]
           }
@@ -9642,7 +9541,7 @@
           "co2e": {}
         },
         "links": {
-          "documents": "https://gateway.api.kuehne-nagel.com/transport/execution/documentation/shipment/v3/shipments/shipment-id%3A529940589/documents"
+          "documents": "https://gateway.api.kuehne-nagel.com/transport/execution/documentation/shipment/v3/shipments/shipment-id%3A530093191/documents"
         }
       },
       {
@@ -12581,28 +12480,44 @@
     ],
     "raw_search": [
       {
+        "shipmentId": 530258152,
+        "trackingNumber": "RWM009252524",
+        "modeOfTransport": "ROAD",
+        "currentStage": "IN_TRANSIT",
+        "shipmentCreationDateTime": "2026-10-13T12:51:57Z",
+        "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A530258152"
+      },
+      {
+        "shipmentId": 530258519,
+        "trackingNumber": "RWM009246740",
+        "modeOfTransport": "ROAD",
+        "currentStage": "IN_TRANSIT",
+        "shipmentCreationDateTime": "2026-10-13T12:51:56Z",
+        "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A530258519"
+      },
+      {
+        "shipmentId": 530258222,
+        "trackingNumber": "RWM009246464",
+        "modeOfTransport": "ROAD",
+        "currentStage": "IN_TRANSIT",
+        "shipmentCreationDateTime": "2026-10-13T12:51:56Z",
+        "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A530258222"
+      },
+      {
+        "shipmentId": 530257947,
+        "trackingNumber": "RWM009255076",
+        "modeOfTransport": "ROAD",
+        "currentStage": "IN_TRANSIT",
+        "shipmentCreationDateTime": "2026-10-13T12:51:56Z",
+        "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A530257947"
+      },
+      {
         "shipmentId": 530093803,
         "trackingNumber": "RWM009240495",
         "modeOfTransport": "ROAD",
         "currentStage": "IN_TRANSIT",
         "shipmentCreationDateTime": "2026-10-12T12:52:00Z",
         "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A530093803"
-      },
-      {
-        "shipmentId": 530093676,
-        "trackingNumber": "RWM009242536",
-        "modeOfTransport": "ROAD",
-        "currentStage": "IN_TRANSIT",
-        "shipmentCreationDateTime": "2026-10-12T12:52:00Z",
-        "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A530093676"
-      },
-      {
-        "shipmentId": 530093619,
-        "trackingNumber": "RWM009241356",
-        "modeOfTransport": "ROAD",
-        "currentStage": "IN_TRANSIT",
-        "shipmentCreationDateTime": "2026-10-12T12:52:00Z",
-        "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A530093619"
       },
       {
         "shipmentId": 530093552,
@@ -12627,14 +12542,6 @@
         "currentStage": "IN_TRANSIT",
         "shipmentCreationDateTime": "2026-10-12T12:51:59Z",
         "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A530106356"
-      },
-      {
-        "shipmentId": 530106184,
-        "trackingNumber": "RWM009241060",
-        "modeOfTransport": "ROAD",
-        "currentStage": "IN_TRANSIT",
-        "shipmentCreationDateTime": "2026-10-12T12:51:59Z",
-        "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A530106184"
       },
       {
         "shipmentId": 530106085,
@@ -12715,14 +12622,6 @@
         "currentStage": "IN_TRANSIT",
         "shipmentCreationDateTime": "2026-10-12T12:51:58Z",
         "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A530093191"
-      },
-      {
-        "shipmentId": 529940589,
-        "trackingNumber": "RWM009230301",
-        "modeOfTransport": "ROAD",
-        "currentStage": "IN_TRANSIT",
-        "shipmentCreationDateTime": "2026-10-09T12:32:40Z",
-        "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A529940589"
       },
       {
         "shipmentId": 402047203,
