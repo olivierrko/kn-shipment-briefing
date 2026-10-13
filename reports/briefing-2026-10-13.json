@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T06:20:44.870153+00:00",
+  "generated_at": "2026-10-13T06:59:13.490867+00:00",
   "active": {
     "total_active": 25,
     "ignored_anomalies": [],
@@ -3420,7 +3420,7 @@
               },
               {
                 "reached": true,
-                "completed": false,
+                "completed": true,
                 "type": "DEPARTURE",
                 "location": {
                   "locationCode": "FRGLX",
@@ -3449,14 +3449,14 @@
                     }
                   },
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "VEHICLE_DEPARTED"
                   }
                 ],
                 "outgoingVehicle": {}
               },
               {
-                "reached": false,
+                "reached": true,
                 "completed": false,
                 "type": "ARRIVAL",
                 "location": {
@@ -3469,12 +3469,25 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "VEHICLE_ARRIVED"
                   },
                   {
-                    "reached": false,
-                    "locationMilestoneType": "IN_DELIVERY"
+                    "reached": true,
+                    "locationMilestoneType": "IN_DELIVERY",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-13",
+                        "time": "07:49",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-13T07:49+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "2600"
+                      }
+                    }
                   },
                   {
                     "reached": false,
@@ -3537,22 +3550,25 @@
           "milestoneInfo": {
             "currentStage": "IN_TRANSIT",
             "currentMilestone": {
-              "type": "TRANSPORT_INFORMATION_MILESTONE",
+              "type": "ROUTE_LOCATION_MILESTONE",
               "actualAchievementDateTime": {
                 "flexDateTime": {
-                  "date": "2026-10-12",
-                  "time": "14:08",
-                  "offset": "Z"
+                  "date": "2026-10-13",
+                  "time": "07:49",
+                  "offset": "+02:00"
                 },
-                "dateTime": "2026-10-12T14:08Z",
-                "condition": "PLANNED",
+                "dateTime": "2026-10-13T07:49+02:00",
+                "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "2525"
+                  "statusCode": "2600"
                 }
               },
+              "city": "Gallargues-Le-Montueux",
+              "countryCode": "FR",
               "key": {
-                "transportInformationMilestoneType": "DELIVERY_APPOINTMENT_SUBMISSION"
+                "routeLocationType": "ARRIVAL",
+                "locationMilestoneType": "IN_DELIVERY"
               }
             },
             "completionMilestone": {
@@ -3637,6 +3653,28 @@
                 "key": {
                   "routeLocationType": "DEPARTURE",
                   "locationMilestoneType": "VEHICLE_ARRIVED"
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13",
+                    "time": "07:49",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-13T07:49+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "2600"
+                  }
+                },
+                "city": "Gallargues-Le-Montueux",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "ARRIVAL",
+                  "locationMilestoneType": "IN_DELIVERY"
                 }
               },
               {
@@ -6563,6 +6601,19 @@
                 "statusCode": "1300"
               }
             },
+            "arrivalDate": {
+              "flexDateTime": {
+                "date": "2026-10-13",
+                "time": "03:56",
+                "offset": "+02:00"
+              },
+              "dateTime": "2026-10-13T03:56+02:00",
+              "condition": "ACTUAL",
+              "explanation": {
+                "source": "STATUS",
+                "statusCode": "1410"
+              }
+            },
             "routeLocations": [
               {
                 "reached": true,
@@ -6653,7 +6704,7 @@
                 "outgoingVehicle": {}
               },
               {
-                "reached": false,
+                "reached": true,
                 "completed": false,
                 "type": "ARRIVAL",
                 "location": {
@@ -6666,8 +6717,21 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-13",
+                        "time": "03:56",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-13T03:56+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1410"
+                      }
+                    }
                   },
                   {
                     "reached": false,
@@ -6722,22 +6786,22 @@
               "type": "ROUTE_LOCATION_MILESTONE",
               "actualAchievementDateTime": {
                 "flexDateTime": {
-                  "date": "2026-10-12",
-                  "time": "23:15",
+                  "date": "2026-10-13",
+                  "time": "03:56",
                   "offset": "+02:00"
                 },
-                "dateTime": "2026-10-12T23:15+02:00",
+                "dateTime": "2026-10-13T03:56+02:00",
                 "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "1300"
+                  "statusCode": "1410"
                 }
               },
-              "city": "Gallargues-Le-Montueux",
+              "city": "Villefranche Sur Saone",
               "countryCode": "FR",
               "key": {
-                "routeLocationType": "DEPARTURE",
-                "locationMilestoneType": "VEHICLE_DEPARTED"
+                "routeLocationType": "ARRIVAL",
+                "locationMilestoneType": "VEHICLE_ARRIVED"
               }
             },
             "milestoneDates": [
@@ -6822,6 +6886,28 @@
                 "key": {
                   "routeLocationType": "DEPARTURE",
                   "locationMilestoneType": "VEHICLE_DEPARTED"
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13",
+                    "time": "03:56",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-13T03:56+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1410"
+                  }
+                },
+                "city": "Villefranche Sur Saone",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "ARRIVAL",
+                  "locationMilestoneType": "VEHICLE_ARRIVED"
                 }
               }
             ]
@@ -7692,7 +7778,7 @@
                 "outgoingVehicle": {}
               },
               {
-                "reached": false,
+                "reached": true,
                 "completed": false,
                 "type": "TRANSIT",
                 "location": {
@@ -7705,8 +7791,21 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-13",
+                        "time": "06:05",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-13T06:05+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1410"
+                      }
+                    }
                   },
                   {
                     "reached": false,
@@ -7787,22 +7886,22 @@
               "type": "ROUTE_LOCATION_MILESTONE",
               "actualAchievementDateTime": {
                 "flexDateTime": {
-                  "date": "2026-10-12",
-                  "time": "16:08",
+                  "date": "2026-10-13",
+                  "time": "06:05",
                   "offset": "+02:00"
                 },
-                "dateTime": "2026-10-12T16:08+02:00",
+                "dateTime": "2026-10-13T06:05+02:00",
                 "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "1300"
+                  "statusCode": "1410"
                 }
               },
-              "city": "Gallargues-Le-Montueux",
+              "city": "Tours",
               "countryCode": "FR",
               "key": {
-                "routeLocationType": "DEPARTURE",
-                "locationMilestoneType": "VEHICLE_DEPARTED"
+                "routeLocationType": "TRANSIT",
+                "locationMilestoneType": "VEHICLE_ARRIVED"
               }
             },
             "milestoneDates": [
@@ -7887,6 +7986,28 @@
                 "key": {
                   "routeLocationType": "DEPARTURE",
                   "locationMilestoneType": "VEHICLE_DEPARTED"
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13",
+                    "time": "06:05",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-13T06:05+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1410"
+                  }
+                },
+                "city": "Tours",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "TRANSIT",
+                  "locationMilestoneType": "VEHICLE_ARRIVED"
                 }
               }
             ]
@@ -9301,8 +9422,21 @@
                     }
                   },
                   {
-                    "reached": false,
-                    "locationMilestoneType": "IN_DELIVERY"
+                    "reached": true,
+                    "locationMilestoneType": "IN_DELIVERY",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-13",
+                        "time": "06:49",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-13T06:49+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "2600"
+                      }
+                    }
                   },
                   {
                     "reached": false,
@@ -9355,22 +9489,22 @@
               "type": "ROUTE_LOCATION_MILESTONE",
               "actualAchievementDateTime": {
                 "flexDateTime": {
-                  "date": "2026-10-12",
-                  "time": "16:19",
+                  "date": "2026-10-13",
+                  "time": "06:49",
                   "offset": "+02:00"
                 },
-                "dateTime": "2026-10-12T16:19+02:00",
+                "dateTime": "2026-10-13T06:49+02:00",
                 "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "1410"
+                  "statusCode": "2600"
                 }
               },
               "city": "Tours",
               "countryCode": "FR",
               "key": {
                 "routeLocationType": "ARRIVAL",
-                "locationMilestoneType": "VEHICLE_ARRIVED"
+                "locationMilestoneType": "IN_DELIVERY"
               }
             },
             "milestoneDates": [
@@ -9477,6 +9611,28 @@
                 "key": {
                   "routeLocationType": "ARRIVAL",
                   "locationMilestoneType": "VEHICLE_ARRIVED"
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-13",
+                    "time": "06:49",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-13T06:49+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "2600"
+                  }
+                },
+                "city": "Tours",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "ARRIVAL",
+                  "locationMilestoneType": "IN_DELIVERY"
                 }
               }
             ]
