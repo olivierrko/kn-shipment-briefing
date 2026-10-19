@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T14:41:29.115521+00:00",
+  "generated_at": "2026-10-19T19:27:25.680418+00:00",
   "active": {
     "total_active": 18,
     "ignored_anomalies": [],
@@ -212,15 +212,14 @@
             "value": 392,
             "unit": "KG"
           },
-          "hasDangerousGoods": false,
-          "labelPrinted": true
+          "hasDangerousGoods": false
         },
         "routing": {
           "core": {
             "routeLocations": [
               {
-                "reached": false,
-                "completed": false,
+                "reached": true,
+                "completed": true,
                 "type": "ORIGIN",
                 "location": {
                   "locationCode": "FRFNI",
@@ -231,7 +230,7 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "READY_FOR_PICKUP",
                     "achievementDateTime": {
                       "flexDateTime": {
@@ -246,18 +245,18 @@
                     }
                   },
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "VEHICLE_ARRIVED"
                   },
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "CARGO_PICKED_UP"
                   }
                 ],
                 "outgoingVehicle": {}
               },
               {
-                "reached": false,
+                "reached": true,
                 "completed": false,
                 "type": "DEPARTURE",
                 "location": {
@@ -270,8 +269,21 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-19",
+                        "time": "15:23",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-19T15:23+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1000"
+                      }
+                    }
                   },
                   {
                     "reached": false,
@@ -369,24 +381,27 @@
             }
           },
           "milestoneInfo": {
-            "currentStage": "BOOKED",
+            "currentStage": "IN_TRANSIT",
             "currentMilestone": {
-              "type": "TRANSPORT_INFORMATION_MILESTONE",
+              "type": "ROUTE_LOCATION_MILESTONE",
               "actualAchievementDateTime": {
                 "flexDateTime": {
                   "date": "2026-10-19",
-                  "time": "12:00:04",
-                  "offset": "Z"
+                  "time": "15:23",
+                  "offset": "+02:00"
                 },
-                "dateTime": "2026-10-19T12:00:04Z",
+                "dateTime": "2026-10-19T15:23+02:00",
                 "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "0141"
+                  "statusCode": "1000"
                 }
               },
+              "city": "Gallargues-Le-Montueux",
+              "countryCode": "FR",
               "key": {
-                "transportInformationMilestoneType": "BOOKING_SUBMISSION"
+                "routeLocationType": "DEPARTURE",
+                "locationMilestoneType": "VEHICLE_ARRIVED"
               }
             },
             "milestoneDates": [
@@ -427,6 +442,28 @@
                     "source": "STATUS",
                     "statusCode": "0300"
                   }
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-19",
+                    "time": "15:23",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-19T15:23+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1000"
+                  }
+                },
+                "city": "Gallargues-Le-Montueux",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "DEPARTURE",
+                  "locationMilestoneType": "VEHICLE_ARRIVED"
                 }
               }
             ]
@@ -644,15 +681,27 @@
             "value": 326,
             "unit": "KG"
           },
-          "hasDangerousGoods": false,
-          "labelPrinted": true
+          "hasDangerousGoods": false
         },
         "routing": {
           "core": {
+            "departureDate": {
+              "flexDateTime": {
+                "date": "2026-10-19",
+                "time": "19:59",
+                "offset": "+02:00"
+              },
+              "dateTime": "2026-10-19T19:59+02:00",
+              "condition": "ACTUAL",
+              "explanation": {
+                "source": "STATUS",
+                "statusCode": "1300"
+              }
+            },
             "routeLocations": [
               {
-                "reached": false,
-                "completed": false,
+                "reached": true,
+                "completed": true,
                 "type": "ORIGIN",
                 "location": {
                   "locationCode": "FRFNI",
@@ -663,7 +712,7 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "READY_FOR_PICKUP",
                     "achievementDateTime": {
                       "flexDateTime": {
@@ -678,19 +727,19 @@
                     }
                   },
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "VEHICLE_ARRIVED"
                   },
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "CARGO_PICKED_UP"
                   }
                 ],
                 "outgoingVehicle": {}
               },
               {
-                "reached": false,
-                "completed": false,
+                "reached": true,
+                "completed": true,
                 "type": "DEPARTURE",
                 "location": {
                   "locationCode": "FRGLX",
@@ -702,12 +751,38 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-19",
+                        "time": "15:23",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-19T15:23+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1000"
+                      }
+                    }
                   },
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_DEPARTED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_DEPARTED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-19",
+                        "time": "19:59",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-19T19:59+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1300"
+                      }
+                    }
                   }
                 ],
                 "outgoingVehicle": {}
@@ -801,24 +876,27 @@
             }
           },
           "milestoneInfo": {
-            "currentStage": "BOOKED",
+            "currentStage": "IN_TRANSIT",
             "currentMilestone": {
-              "type": "TRANSPORT_INFORMATION_MILESTONE",
+              "type": "ROUTE_LOCATION_MILESTONE",
               "actualAchievementDateTime": {
                 "flexDateTime": {
                   "date": "2026-10-19",
-                  "time": "12:00:04",
-                  "offset": "Z"
+                  "time": "19:59",
+                  "offset": "+02:00"
                 },
-                "dateTime": "2026-10-19T12:00:04Z",
+                "dateTime": "2026-10-19T19:59+02:00",
                 "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "0141"
+                  "statusCode": "1300"
                 }
               },
+              "city": "Gallargues-Le-Montueux",
+              "countryCode": "FR",
               "key": {
-                "transportInformationMilestoneType": "BOOKING_SUBMISSION"
+                "routeLocationType": "DEPARTURE",
+                "locationMilestoneType": "VEHICLE_DEPARTED"
               }
             },
             "milestoneDates": [
@@ -859,6 +937,50 @@
                     "source": "STATUS",
                     "statusCode": "0300"
                   }
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-19",
+                    "time": "15:23",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-19T15:23+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1000"
+                  }
+                },
+                "city": "Gallargues-Le-Montueux",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "DEPARTURE",
+                  "locationMilestoneType": "VEHICLE_ARRIVED"
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-19",
+                    "time": "19:59",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-19T19:59+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1300"
+                  }
+                },
+                "city": "Gallargues-Le-Montueux",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "DEPARTURE",
+                  "locationMilestoneType": "VEHICLE_DEPARTED"
                 }
               }
             ]
@@ -1076,15 +1198,27 @@
             "value": 349,
             "unit": "KG"
           },
-          "hasDangerousGoods": false,
-          "labelPrinted": true
+          "hasDangerousGoods": false
         },
         "routing": {
           "core": {
+            "departureDate": {
+              "flexDateTime": {
+                "date": "2026-10-19",
+                "time": "19:59",
+                "offset": "+02:00"
+              },
+              "dateTime": "2026-10-19T19:59+02:00",
+              "condition": "ACTUAL",
+              "explanation": {
+                "source": "STATUS",
+                "statusCode": "1300"
+              }
+            },
             "routeLocations": [
               {
-                "reached": false,
-                "completed": false,
+                "reached": true,
+                "completed": true,
                 "type": "ORIGIN",
                 "location": {
                   "locationCode": "FRFNI",
@@ -1095,7 +1229,7 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "READY_FOR_PICKUP",
                     "achievementDateTime": {
                       "flexDateTime": {
@@ -1110,19 +1244,19 @@
                     }
                   },
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "VEHICLE_ARRIVED"
                   },
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "CARGO_PICKED_UP"
                   }
                 ],
                 "outgoingVehicle": {}
               },
               {
-                "reached": false,
-                "completed": false,
+                "reached": true,
+                "completed": true,
                 "type": "DEPARTURE",
                 "location": {
                   "locationCode": "FRGLX",
@@ -1134,12 +1268,38 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-19",
+                        "time": "15:23",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-19T15:23+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1000"
+                      }
+                    }
                   },
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_DEPARTED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_DEPARTED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-19",
+                        "time": "19:59",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-19T19:59+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1300"
+                      }
+                    }
                   }
                 ],
                 "outgoingVehicle": {}
@@ -1235,24 +1395,27 @@
             }
           },
           "milestoneInfo": {
-            "currentStage": "BOOKED",
+            "currentStage": "IN_TRANSIT",
             "currentMilestone": {
-              "type": "TRANSPORT_INFORMATION_MILESTONE",
+              "type": "ROUTE_LOCATION_MILESTONE",
               "actualAchievementDateTime": {
                 "flexDateTime": {
                   "date": "2026-10-19",
-                  "time": "12:00:04",
-                  "offset": "Z"
+                  "time": "19:59",
+                  "offset": "+02:00"
                 },
-                "dateTime": "2026-10-19T12:00:04Z",
+                "dateTime": "2026-10-19T19:59+02:00",
                 "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "0141"
+                  "statusCode": "1300"
                 }
               },
+              "city": "Gallargues-Le-Montueux",
+              "countryCode": "FR",
               "key": {
-                "transportInformationMilestoneType": "BOOKING_SUBMISSION"
+                "routeLocationType": "DEPARTURE",
+                "locationMilestoneType": "VEHICLE_DEPARTED"
               }
             },
             "milestoneDates": [
@@ -1293,6 +1456,50 @@
                     "source": "STATUS",
                     "statusCode": "0300"
                   }
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-19",
+                    "time": "15:23",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-19T15:23+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1000"
+                  }
+                },
+                "city": "Gallargues-Le-Montueux",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "DEPARTURE",
+                  "locationMilestoneType": "VEHICLE_ARRIVED"
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-19",
+                    "time": "19:59",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-19T19:59+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1300"
+                  }
+                },
+                "city": "Gallargues-Le-Montueux",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "DEPARTURE",
+                  "locationMilestoneType": "VEHICLE_DEPARTED"
                 }
               }
             ]
@@ -1507,15 +1714,27 @@
             "value": 312,
             "unit": "KG"
           },
-          "hasDangerousGoods": false,
-          "labelPrinted": true
+          "hasDangerousGoods": false
         },
         "routing": {
           "core": {
+            "departureDate": {
+              "flexDateTime": {
+                "date": "2026-10-19",
+                "time": "19:16",
+                "offset": "+02:00"
+              },
+              "dateTime": "2026-10-19T19:16+02:00",
+              "condition": "ACTUAL",
+              "explanation": {
+                "source": "STATUS",
+                "statusCode": "1300"
+              }
+            },
             "routeLocations": [
               {
-                "reached": false,
-                "completed": false,
+                "reached": true,
+                "completed": true,
                 "type": "ORIGIN",
                 "location": {
                   "locationCode": "FRFNI",
@@ -1526,7 +1745,7 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "READY_FOR_PICKUP",
                     "achievementDateTime": {
                       "flexDateTime": {
@@ -1541,19 +1760,19 @@
                     }
                   },
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "VEHICLE_ARRIVED"
                   },
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "CARGO_PICKED_UP"
                   }
                 ],
                 "outgoingVehicle": {}
               },
               {
-                "reached": false,
-                "completed": false,
+                "reached": true,
+                "completed": true,
                 "type": "DEPARTURE",
                 "location": {
                   "locationCode": "FRGLX",
@@ -1565,12 +1784,38 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-19",
+                        "time": "15:23",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-19T15:23+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1000"
+                      }
+                    }
                   },
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_DEPARTED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_DEPARTED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-19",
+                        "time": "19:16",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-19T19:16+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1300"
+                      }
+                    }
                   }
                 ],
                 "outgoingVehicle": {}
@@ -1666,24 +1911,27 @@
             }
           },
           "milestoneInfo": {
-            "currentStage": "BOOKED",
+            "currentStage": "IN_TRANSIT",
             "currentMilestone": {
-              "type": "TRANSPORT_INFORMATION_MILESTONE",
+              "type": "ROUTE_LOCATION_MILESTONE",
               "actualAchievementDateTime": {
                 "flexDateTime": {
                   "date": "2026-10-19",
-                  "time": "12:00:04",
-                  "offset": "Z"
+                  "time": "19:16",
+                  "offset": "+02:00"
                 },
-                "dateTime": "2026-10-19T12:00:04Z",
+                "dateTime": "2026-10-19T19:16+02:00",
                 "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "0141"
+                  "statusCode": "1300"
                 }
               },
+              "city": "Gallargues-Le-Montueux",
+              "countryCode": "FR",
               "key": {
-                "transportInformationMilestoneType": "BOOKING_SUBMISSION"
+                "routeLocationType": "DEPARTURE",
+                "locationMilestoneType": "VEHICLE_DEPARTED"
               }
             },
             "milestoneDates": [
@@ -1724,6 +1972,50 @@
                     "source": "STATUS",
                     "statusCode": "0300"
                   }
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-19",
+                    "time": "15:23",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-19T15:23+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1000"
+                  }
+                },
+                "city": "Gallargues-Le-Montueux",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "DEPARTURE",
+                  "locationMilestoneType": "VEHICLE_ARRIVED"
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-19",
+                    "time": "19:16",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-19T19:16+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1300"
+                  }
+                },
+                "city": "Gallargues-Le-Montueux",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "DEPARTURE",
+                  "locationMilestoneType": "VEHICLE_DEPARTED"
                 }
               }
             ]
@@ -1943,15 +2235,14 @@
             "value": 243,
             "unit": "KG"
           },
-          "hasDangerousGoods": false,
-          "labelPrinted": true
+          "hasDangerousGoods": false
         },
         "routing": {
           "core": {
             "routeLocations": [
               {
-                "reached": false,
-                "completed": false,
+                "reached": true,
+                "completed": true,
                 "type": "ORIGIN",
                 "location": {
                   "locationCode": "FRFNI",
@@ -1962,7 +2253,7 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "READY_FOR_PICKUP",
                     "achievementDateTime": {
                       "flexDateTime": {
@@ -1977,18 +2268,18 @@
                     }
                   },
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "VEHICLE_ARRIVED"
                   },
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "CARGO_PICKED_UP"
                   }
                 ],
                 "outgoingVehicle": {}
               },
               {
-                "reached": false,
+                "reached": true,
                 "completed": false,
                 "type": "DEPARTURE",
                 "location": {
@@ -2001,8 +2292,21 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-19",
+                        "time": "15:23",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-19T15:23+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1000"
+                      }
+                    }
                   },
                   {
                     "reached": false,
@@ -2102,24 +2406,27 @@
             }
           },
           "milestoneInfo": {
-            "currentStage": "BOOKED",
+            "currentStage": "IN_TRANSIT",
             "currentMilestone": {
-              "type": "TRANSPORT_INFORMATION_MILESTONE",
+              "type": "ROUTE_LOCATION_MILESTONE",
               "actualAchievementDateTime": {
                 "flexDateTime": {
                   "date": "2026-10-19",
-                  "time": "12:00:04",
-                  "offset": "Z"
+                  "time": "15:23",
+                  "offset": "+02:00"
                 },
-                "dateTime": "2026-10-19T12:00:04Z",
+                "dateTime": "2026-10-19T15:23+02:00",
                 "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "0141"
+                  "statusCode": "1000"
                 }
               },
+              "city": "Gallargues-Le-Montueux",
+              "countryCode": "FR",
               "key": {
-                "transportInformationMilestoneType": "BOOKING_SUBMISSION"
+                "routeLocationType": "DEPARTURE",
+                "locationMilestoneType": "VEHICLE_ARRIVED"
               }
             },
             "milestoneDates": [
@@ -2160,6 +2467,28 @@
                     "source": "STATUS",
                     "statusCode": "0300"
                   }
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-19",
+                    "time": "15:23",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-19T15:23+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1000"
+                  }
+                },
+                "city": "Gallargues-Le-Montueux",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "DEPARTURE",
+                  "locationMilestoneType": "VEHICLE_ARRIVED"
                 }
               }
             ]
@@ -2379,15 +2708,27 @@
             "value": 260,
             "unit": "KG"
           },
-          "hasDangerousGoods": false,
-          "labelPrinted": true
+          "hasDangerousGoods": false
         },
         "routing": {
           "core": {
+            "departureDate": {
+              "flexDateTime": {
+                "date": "2026-10-19",
+                "time": "19:16",
+                "offset": "+02:00"
+              },
+              "dateTime": "2026-10-19T19:16+02:00",
+              "condition": "ACTUAL",
+              "explanation": {
+                "source": "STATUS",
+                "statusCode": "1300"
+              }
+            },
             "routeLocations": [
               {
-                "reached": false,
-                "completed": false,
+                "reached": true,
+                "completed": true,
                 "type": "ORIGIN",
                 "location": {
                   "locationCode": "FRFNI",
@@ -2398,7 +2739,7 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "READY_FOR_PICKUP",
                     "achievementDateTime": {
                       "flexDateTime": {
@@ -2413,19 +2754,19 @@
                     }
                   },
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "VEHICLE_ARRIVED"
                   },
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "CARGO_PICKED_UP"
                   }
                 ],
                 "outgoingVehicle": {}
               },
               {
-                "reached": false,
-                "completed": false,
+                "reached": true,
+                "completed": true,
                 "type": "DEPARTURE",
                 "location": {
                   "locationCode": "FRGLX",
@@ -2437,12 +2778,38 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-19",
+                        "time": "15:23",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-19T15:23+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1000"
+                      }
+                    }
                   },
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_DEPARTED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_DEPARTED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-19",
+                        "time": "19:16",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-19T19:16+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1300"
+                      }
+                    }
                   }
                 ],
                 "outgoingVehicle": {}
@@ -2531,24 +2898,27 @@
             }
           },
           "milestoneInfo": {
-            "currentStage": "BOOKED",
+            "currentStage": "IN_TRANSIT",
             "currentMilestone": {
-              "type": "TRANSPORT_INFORMATION_MILESTONE",
+              "type": "ROUTE_LOCATION_MILESTONE",
               "actualAchievementDateTime": {
                 "flexDateTime": {
                   "date": "2026-10-19",
-                  "time": "12:00:04",
-                  "offset": "Z"
+                  "time": "19:16",
+                  "offset": "+02:00"
                 },
-                "dateTime": "2026-10-19T12:00:04Z",
+                "dateTime": "2026-10-19T19:16+02:00",
                 "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "0141"
+                  "statusCode": "1300"
                 }
               },
+              "city": "Gallargues-Le-Montueux",
+              "countryCode": "FR",
               "key": {
-                "transportInformationMilestoneType": "BOOKING_SUBMISSION"
+                "routeLocationType": "DEPARTURE",
+                "locationMilestoneType": "VEHICLE_DEPARTED"
               }
             },
             "milestoneDates": [
@@ -2589,6 +2959,50 @@
                     "source": "STATUS",
                     "statusCode": "0300"
                   }
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-19",
+                    "time": "15:23",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-19T15:23+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1000"
+                  }
+                },
+                "city": "Gallargues-Le-Montueux",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "DEPARTURE",
+                  "locationMilestoneType": "VEHICLE_ARRIVED"
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-19",
+                    "time": "19:16",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-19T19:16+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1300"
+                  }
+                },
+                "city": "Gallargues-Le-Montueux",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "DEPARTURE",
+                  "locationMilestoneType": "VEHICLE_DEPARTED"
                 }
               }
             ]
@@ -2808,15 +3222,14 @@
             "value": 294,
             "unit": "KG"
           },
-          "hasDangerousGoods": false,
-          "labelPrinted": true
+          "hasDangerousGoods": false
         },
         "routing": {
           "core": {
             "routeLocations": [
               {
-                "reached": false,
-                "completed": false,
+                "reached": true,
+                "completed": true,
                 "type": "ORIGIN",
                 "location": {
                   "locationCode": "FRFNI",
@@ -2827,7 +3240,7 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "READY_FOR_PICKUP",
                     "achievementDateTime": {
                       "flexDateTime": {
@@ -2842,18 +3255,18 @@
                     }
                   },
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "VEHICLE_ARRIVED"
                   },
                   {
-                    "reached": false,
+                    "reached": true,
                     "locationMilestoneType": "CARGO_PICKED_UP"
                   }
                 ],
                 "outgoingVehicle": {}
               },
               {
-                "reached": false,
+                "reached": true,
                 "completed": false,
                 "type": "DEPARTURE",
                 "location": {
@@ -2866,8 +3279,21 @@
                 },
                 "locationMilestones": [
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_ARRIVED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_ARRIVED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-19",
+                        "time": "15:23",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-19T15:23+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1000"
+                      }
+                    }
                   },
                   {
                     "reached": false,
@@ -2967,24 +3393,27 @@
             }
           },
           "milestoneInfo": {
-            "currentStage": "BOOKED",
+            "currentStage": "IN_TRANSIT",
             "currentMilestone": {
-              "type": "TRANSPORT_INFORMATION_MILESTONE",
+              "type": "ROUTE_LOCATION_MILESTONE",
               "actualAchievementDateTime": {
                 "flexDateTime": {
                   "date": "2026-10-19",
-                  "time": "12:00:04",
-                  "offset": "Z"
+                  "time": "15:23",
+                  "offset": "+02:00"
                 },
-                "dateTime": "2026-10-19T12:00:04Z",
+                "dateTime": "2026-10-19T15:23+02:00",
                 "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "0141"
+                  "statusCode": "1000"
                 }
               },
+              "city": "Gallargues-Le-Montueux",
+              "countryCode": "FR",
               "key": {
-                "transportInformationMilestoneType": "BOOKING_SUBMISSION"
+                "routeLocationType": "DEPARTURE",
+                "locationMilestoneType": "VEHICLE_ARRIVED"
               }
             },
             "milestoneDates": [
@@ -3025,6 +3454,28 @@
                     "source": "STATUS",
                     "statusCode": "0300"
                   }
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-19",
+                    "time": "15:23",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-19T15:23+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1000"
+                  }
+                },
+                "city": "Gallargues-Le-Montueux",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "DEPARTURE",
+                  "locationMilestoneType": "VEHICLE_ARRIVED"
                 }
               }
             ]
@@ -3353,7 +3804,7 @@
               },
               {
                 "reached": true,
-                "completed": false,
+                "completed": true,
                 "type": "TRANSIT",
                 "location": {
                   "locationCode": "FRBEA",
@@ -3382,8 +3833,21 @@
                     }
                   },
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_DEPARTED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_DEPARTED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-19",
+                        "time": "18:10",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-19T18:10+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1300"
+                      }
+                    }
                   }
                 ],
                 "outgoingVehicle": {}
@@ -3460,22 +3924,22 @@
               "type": "ROUTE_LOCATION_MILESTONE",
               "actualAchievementDateTime": {
                 "flexDateTime": {
-                  "date": "2026-10-17",
-                  "time": "04:33",
+                  "date": "2026-10-19",
+                  "time": "18:10",
                   "offset": "+02:00"
                 },
-                "dateTime": "2026-10-17T04:33+02:00",
+                "dateTime": "2026-10-19T18:10+02:00",
                 "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "1410"
+                  "statusCode": "1300"
                 }
               },
               "city": "Beaune",
               "countryCode": "FR",
               "key": {
                 "routeLocationType": "TRANSIT",
-                "locationMilestoneType": "VEHICLE_ARRIVED"
+                "locationMilestoneType": "VEHICLE_DEPARTED"
               }
             },
             "milestoneDates": [
@@ -3582,6 +4046,28 @@
                 "key": {
                   "routeLocationType": "TRANSIT",
                   "locationMilestoneType": "VEHICLE_ARRIVED"
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-19",
+                    "time": "18:10",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-19T18:10+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1300"
+                  }
+                },
+                "city": "Beaune",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "TRANSIT",
+                  "locationMilestoneType": "VEHICLE_DEPARTED"
                 }
               }
             ]
@@ -3909,7 +4395,7 @@
               },
               {
                 "reached": true,
-                "completed": false,
+                "completed": true,
                 "type": "TRANSIT",
                 "location": {
                   "locationCode": "FRVSS",
@@ -3938,8 +4424,21 @@
                     }
                   },
                   {
-                    "reached": false,
-                    "locationMilestoneType": "VEHICLE_DEPARTED"
+                    "reached": true,
+                    "locationMilestoneType": "VEHICLE_DEPARTED",
+                    "achievementDateTime": {
+                      "flexDateTime": {
+                        "date": "2026-10-19",
+                        "time": "19:45",
+                        "offset": "+02:00"
+                      },
+                      "dateTime": "2026-10-19T19:45+02:00",
+                      "condition": "ACTUAL",
+                      "explanation": {
+                        "source": "STATUS",
+                        "statusCode": "1300"
+                      }
+                    }
                   }
                 ],
                 "outgoingVehicle": {}
@@ -4014,22 +4513,22 @@
               "type": "ROUTE_LOCATION_MILESTONE",
               "actualAchievementDateTime": {
                 "flexDateTime": {
-                  "date": "2026-10-17",
-                  "time": "00:45",
+                  "date": "2026-10-19",
+                  "time": "19:45",
                   "offset": "+02:00"
                 },
-                "dateTime": "2026-10-17T00:45+02:00",
+                "dateTime": "2026-10-19T19:45+02:00",
                 "condition": "ACTUAL",
                 "explanation": {
                   "source": "STATUS",
-                  "statusCode": "1410"
+                  "statusCode": "1300"
                 }
               },
               "city": "Villefranche Sur Saone",
               "countryCode": "FR",
               "key": {
                 "routeLocationType": "TRANSIT",
-                "locationMilestoneType": "VEHICLE_ARRIVED"
+                "locationMilestoneType": "VEHICLE_DEPARTED"
               }
             },
             "milestoneDates": [
@@ -4136,6 +4635,28 @@
                 "key": {
                   "routeLocationType": "TRANSIT",
                   "locationMilestoneType": "VEHICLE_ARRIVED"
+                }
+              },
+              {
+                "type": "ROUTE_LOCATION_MILESTONE",
+                "actualAchievementDateTime": {
+                  "flexDateTime": {
+                    "date": "2026-10-19",
+                    "time": "19:45",
+                    "offset": "+02:00"
+                  },
+                  "dateTime": "2026-10-19T19:45+02:00",
+                  "condition": "ACTUAL",
+                  "explanation": {
+                    "source": "STATUS",
+                    "statusCode": "1300"
+                  }
+                },
+                "city": "Villefranche Sur Saone",
+                "countryCode": "FR",
+                "key": {
+                  "routeLocationType": "TRANSIT",
+                  "locationMilestoneType": "VEHICLE_DEPARTED"
                 }
               }
             ]
@@ -8247,7 +8768,7 @@
         "shipmentId": 530861810,
         "trackingNumber": "RWM009301585",
         "modeOfTransport": "ROAD",
-        "currentStage": "BOOKED",
+        "currentStage": "IN_TRANSIT",
         "shipmentCreationDateTime": "2026-10-19T12:00:04Z",
         "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A530861810"
       },
@@ -8255,7 +8776,7 @@
         "shipmentId": 530861790,
         "trackingNumber": "RWM009301510",
         "modeOfTransport": "ROAD",
-        "currentStage": "BOOKED",
+        "currentStage": "IN_TRANSIT",
         "shipmentCreationDateTime": "2026-10-19T12:00:04Z",
         "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A530861790"
       },
@@ -8263,7 +8784,7 @@
         "shipmentId": 530861732,
         "trackingNumber": "RWM009302011",
         "modeOfTransport": "ROAD",
-        "currentStage": "BOOKED",
+        "currentStage": "IN_TRANSIT",
         "shipmentCreationDateTime": "2026-10-19T12:00:04Z",
         "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A530861732"
       },
@@ -8271,7 +8792,7 @@
         "shipmentId": 530861424,
         "trackingNumber": "RWM009301943",
         "modeOfTransport": "ROAD",
-        "currentStage": "BOOKED",
+        "currentStage": "IN_TRANSIT",
         "shipmentCreationDateTime": "2026-10-19T12:00:04Z",
         "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A530861424"
       },
@@ -8279,7 +8800,7 @@
         "shipmentId": 530861337,
         "trackingNumber": "RWM009301364",
         "modeOfTransport": "ROAD",
-        "currentStage": "BOOKED",
+        "currentStage": "IN_TRANSIT",
         "shipmentCreationDateTime": "2026-10-19T12:00:04Z",
         "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A530861337"
       },
@@ -8287,7 +8808,7 @@
         "shipmentId": 530861270,
         "trackingNumber": "RWM009301817",
         "modeOfTransport": "ROAD",
-        "currentStage": "BOOKED",
+        "currentStage": "IN_TRANSIT",
         "shipmentCreationDateTime": "2026-10-19T12:00:04Z",
         "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A530861270"
       },
@@ -8295,7 +8816,7 @@
         "shipmentId": 530861244,
         "trackingNumber": "RWM009301712",
         "modeOfTransport": "ROAD",
-        "currentStage": "BOOKED",
+        "currentStage": "IN_TRANSIT",
         "shipmentCreationDateTime": "2026-10-19T12:00:04Z",
         "self": "https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2/shipments/shipment-id%3A530861244"
       },
